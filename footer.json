@@ -1,0 +1,43 @@
+{
+  "tops": [
+    {
+      "title": "关爱保障",
+      "txt": [
+        "用户体验补偿计划"
+      ]
+    },
+    {
+      "title": "购物指南",
+      "txt": [
+        "配送服务",
+        "支付方式",
+        "用户注册"
+      ]
+    },
+    {
+      "title": "售后服务",
+      "txt": [
+        "退款方式",
+        "退换货流程",
+        "常见问题"
+      ]
+    },
+    {
+      "title": "关于我们",
+      "txt": [
+        "联系我们",
+        "商家入驻"
+      ]
+    }
+  ],
+  "qrCode": [
+    "/static/images/fot_er1.png",
+    "/static/images/fot_er2.png"
+  ],
+  "copyRight": [
+    "中智关爱通（上海）科技股份有限公司 Guanaitong.com",
+    "版权所有",
+    "各商标由其各自所有者持有"
+  ],
+  "authentication": "/static/image/authentication.png"
+}

@@ -1,0 +1,84 @@
+//Created by lollipop 2017/11/7
+// display
+.table {
+  display: table;
+  width: 100%;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+}
+
+// float
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+// page-content
+.page-content {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.list-block {
+  overflow: auto;
+}
+
+// 垂直居中
+.vertical-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+// display
+.inline-block {
+  display: inline-block;
+}
+.none {
+  display: none;
+}
+
+.mall-wrap {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+
+input, textarea, select, button {
+  font: 1.2rem "Microsoft Yahei","Hiragino Sans GB",tahoma,arial,"\5B8B\4F53" !important;
+}
+.pr12 {
+  padding-right: 1.2rem;
+}
+
+.lh40 {
+  line-height: 4rem;
+}
+
+.f12 {
+  font-size: 1.2rem;
+}
+.light {
+  color: #999;
+}
+.mb40 {
+  margin-bottom: 4rem;
+}
+
+

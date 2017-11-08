@@ -1,0 +1,28 @@
+//Created by lollipop 2017/11/7
+.navbar {
+  border-bottom: 1px solid #000;
+  .ant-menu-horizontal {
+    border-bottom: none;
+  }
+  .ant-menu-item {
+    margin-right: 20px;
+    width: 100px;
+    font-size: 16px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
+  .ant-menu-horizontal > .ant-menu-item:hover,
+  .ant-menu-horizontal > .ant-menu-submenu:hover,
+  .ant-menu-horizontal > .ant-menu-item-active,
+  .ant-menu-horizontal > .ant-menu-submenu-active,
+  .ant-menu-horizontal > .ant-menu-item-open,
+  .ant-menu-horizontal > .ant-menu-submenu-open,
+  .ant-menu-horizontal > .ant-menu-item-selected,
+  .ant-menu-horizontal > .ant-menu-submenu-selected {
+    border-bottom: 2px solid $theme-color;
+    color: $theme-color;
+  }
+}
+

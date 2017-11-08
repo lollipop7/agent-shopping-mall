@@ -1,0 +1,44 @@
+//Created by lollipop 2017/11/7
+.search-box {
+  .logo {
+    width: 199px;
+    height: 60px;
+    display: block;
+    background: url(/static/images/logo.png) no-repeat 0px 0px;
+  }
+
+  .mt32 {
+    margin-top: 3.2rem;
+  }
+  .search {
+    width: 537px;
+    overflow: hidden;
+    .searchBox1, .searchBox2 {
+      width: 537px;
+      overflow: hidden;
+    }
+
+    input {
+      width: 452px;
+      border: 1px solid #FF5B63;
+      background: #fff url(/static/images/sprite1.png) no-repeat -170px -131px;
+      padding-left: 36px;
+      height: 36px;
+      line-height: 36px;
+    }
+    .ant-input-group-addon {
+      width: 84px;
+      background: $theme-color;
+      color: #fff;
+      height: 36px;
+      font-size: 1.6rem;
+    }
+  }
+  .mt30 {
+    margin-top: 3rem;
+  }
+  .mb40 {
+    margin-bottom: 4rem;
+  }
+
+}
