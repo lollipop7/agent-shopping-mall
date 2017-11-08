@@ -24,24 +24,24 @@ const autoOpenBrowser = !!config.dev.autoOpenBrowser
 const proxyTable = config.dev.proxyTable
 
 const app = express();
-const apiRoutes = express.Router();/* 定义express.Router() 对象 */
-app.use('/api',apiRoutes);/* 定义接口在/api目录下，方便管理 */
+const apiRoutes = express.Router();
 
-const goodsData = require('../goods.json');/* 引入根目录下goods.json数据文件 */
 
-apiRoutes.get('/goods',function (req,res) { /* 定义接口并返回数据 */
+const goodsData = require('../data/goods.json');
+
+apiRoutes.get('/goods',function (req,res) {
   res.json({
     data: goodsData
   })
 });
 
-const footSource = require('../footer.json');
-apiRoutes.get('/footdata',function (req,res) { /* 定义接口并返回数据 */
+const footSource = require('../data/footer.json');
+apiRoutes.get('/footdata',function (req,res) {
   res.json({
     data: footSource
   })
 });
-app.use('/api',apiRoutes);/* 定义接口在/api目录下，方便管理 */
+app.use('/api',apiRoutes);
 
 const compiler = webpack(webpackConfig)
 

@@ -1,17 +1,37 @@
 <template lang="pug">
   #app
-    <!--img.vue(src="/static/images/logo.png")-->
-    router-view
+    .wrap
+      common-header  <!--  展示引入的header组件 -->
+      search-box
+      navbar
+      router-view
+      common-footer
+      copy-right
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import CommonHeader from './components/header'   /* 本页面中用到了HomeHeader组件，所以就需要在这里引入一下 */
+  import SearchBox from './components/search-box'
+  import Navbar from './components/navbar'
+//  import ContentDisplay from './components/content-display'
+  import CommonFooter from './components/footer'
+  import CopyRight from './components/copy-right'
+  export default {
+    name: 'app',
+    components: {
+      CommonHeader,
+      SearchBox,
+      Navbar,
+//      ContentDisplay,
+      CommonFooter,
+      CopyRight
+    }
+  }
 </script>
 
 <style>
-#app {
-
-}
+  .wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
 </style>
