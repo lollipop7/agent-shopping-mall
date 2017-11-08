@@ -13,7 +13,6 @@
   import CommonHeader from './components/header'   /* 本页面中用到了HomeHeader组件，所以就需要在这里引入一下 */
   import SearchBox from './components/search-box'
   import Navbar from './components/navbar'
-//  import ContentDisplay from './components/content-display'
   import CommonFooter from './components/footer'
   import CopyRight from './components/copy-right'
   export default {
@@ -22,7 +21,6 @@
       CommonHeader,
       SearchBox,
       Navbar,
-//      ContentDisplay,
       CommonFooter,
       CopyRight
     }
