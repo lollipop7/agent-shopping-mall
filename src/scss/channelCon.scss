@@ -38,38 +38,40 @@
     padding: 12px;
     line-height: 24px;
     background-color: $background-img;
-    span {
-      float: left;
-      cursor: pointer;
-    }
-    .sortingTit {
-      width: 86px;
-      height: 26px;
-      font-size: 1.4rem;
-    }
-    .sortingSp {
-      width: 60px;
-      height: 26px;
-      border: 1px solid #F3F3F3;
-      background: #F3F3F3 url(/static/images/sprite2.png) no-repeat 40px -473px;
-      line-height: 24px;
-      margin-right: 20px;
-      padding-left: 12px;
-      color: #666666;
-      font-size: 1.2rem;
-      &.active {
-        color: $theme-color;
-        border: 1px solid $theme-color;
-        background-color: $background-img;
+    .sorting-cate {
+      span {
+        float: left;
+        cursor: pointer;
       }
-      &.active.sortingSp2 {
-        background-image: none;
-        padding-left: 0px;
+      .sortingTit {
+        width: 86px;
+        height: 26px;
+        font-size: 1.4rem;
+      }
+      .sortingSp {
         width: 60px;
-        text-align: center;
-      }
-      &.active.active3 {
-        background-position: 40px -630px;
+        height: 26px;
+        border: 1px solid #F3F3F3;
+        background: #F3F3F3 url(/static/images/sprite2.png) no-repeat 40px -473px;
+        line-height: 24px;
+        margin-right: 20px;
+        padding-left: 12px;
+        color: #666666;
+        font-size: 1.2rem;
+        &.active {
+          color: $theme-color;
+          border: 1px solid $theme-color;
+          background-color: $background-img;
+        }
+        &.active.sortingSp2 {
+          background-image: none;
+          padding-left: 0px;
+          width: 60px;
+          text-align: center;
+        }
+        &.active.active3 {
+          background-position: 40px -630px;
+        }
       }
     }
   }
@@ -147,5 +149,13 @@
     line-height: 26px;
     text-align: center;
     color: #999;
+  }
+  .shoppingCar-page {
+    background-color: $background-img;
+    padding: 10px 0;
+    padding-right: 15px;
+    .ivu-page {
+      float: right;
+    }
   }
 }

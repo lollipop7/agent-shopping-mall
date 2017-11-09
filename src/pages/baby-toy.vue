@@ -17,23 +17,42 @@
       </div>
       <div class="content clearfix">
         <div class="sorting">
-          <span class="sortingTit" >排序方式：</span>
-          <span class="sortingSp" :class="sortingSpObj">默认</span>
-          <span class="sortingSp" :class="sortingSpObj">销量</span>
-          <span class="sortingSp" :class="sortingSpObj">人气</span>
-          <span class="sortingSp" :class="sortingSpObj">价格</span>
+          <div class="sorting-cate pull-left">
+            <span class="sortingTit" >排序方式：</span>
+            <span class="sortingSp" :class="sortingSpObj">默认</span>
+            <span class="sortingSp" :class="sortingSpObj">销量</span>
+            <span class="sortingSp" :class="sortingSpObj">人气</span>
+            <span class="sortingSp" :class="sortingSpObj">价格</span>
+          </div>
+          <div class="sort-page pull-right">
+            <Page :current="2" :total="50" simple></Page>
+          </div>
         </div>
         <ul class="cont-ul mt13 clearfix">
           <!-- list组件展示区，并用v-for来将数据遍历，:xx="xxx" 是用来给子组件传递数据的 -->
-          <common-commend v-for="(babyToy,index) in babyToys" :key="babyToy.index" :cartP="babyToy.cartP" :oriP="babyToy.oriP" :like="babyToy.like" :img="babyToy.img" :title="babyToy.title" :ads="babyToy.ads"></common-commend>
+          <common-commend
+            v-for="(babyToy,index) in babyToys"
+            :key="babyToy.index"
+            :cartP="babyToy.cartP"
+            :oriP="babyToy.oriP"
+            :like="babyToy.like"
+            :img="babyToy.img"
+            :title="babyToy.title"
+            :ads="babyToy.ads">
+          </common-commend>
         </ul>
+        <div class="shoppingCar-page mt13 clearfix">
+          <Page :total="100"></Page>
+        </div>
       </div>
+      <mytracks></mytracks>
     </div>
   </div>
 </template>
 <script>
   import classification from '../components/classification'
   import CommonCommend from '../components/commend'
+  import mytracks from '../components/tracks'
   export default {
     data () {
       return {
@@ -47,13 +66,14 @@
     },
     components: {
       classification,
-      CommonCommend
+      CommonCommend,
+      mytracks
     },
     created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
       this.$http.get('/api/goods').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
 //        console.log(data)
         this.babyToys = data.body.data.babyToys
-        this.classificationA = data.body.data.classificationA
+        this.classificationA = data.body.data.classificationA.babyToySorts
       })
     },
     computed: {
