@@ -4,6 +4,7 @@
       <div class="banner-box">
       </div>
       <div class="content">
+        <!--
           <div class="container">
               <div class="news"></div>
           </div>
@@ -39,232 +40,312 @@
                   </div>
               </div>
           </div>
+        -->
+        <!-- 促销商品 -->
           <div class="container">
               <div class="recommend">
-                  <div class="chinese">本周推荐</div>
-                  <div class="english">Recommend This Week</div>
+                <img class="icon" src="/static/images/home/icon_1.png"/>
+                <div class="chinese">促销商品</div>
+                <div class="english">不一样的折扣 只为更美好的你!</div>
+                <div class="more">更多>></div>
               </div>
               <div class="goods-box">
                 <div class="black-line"></div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.jpg"/>
-                    <div class="price">秋季上新 最低35.9元</div>
-                    <div class="down">
-                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                        <div class="buy">立即购买</div>
+                    <img src="/static/images/home/home_2.png"/>
+                    <div class="price-box">
+                        <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                        <div class="down">
+                            <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                            <div class="buy">去抢购</div>
+                        </div>
                     </div>
                 </div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.jpg"/>
-                    <div class="price">秋季上新 最低35.9元</div>
-                    <div class="down">
-                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                        <div class="buy">立即购买</div>
+                    <img src="/static/images/home/home_2.png"/>
+                    <div class="price-box">
+                        <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                        <div class="down">
+                            <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                            <div class="buy">去抢购</div>
+                        </div>
                     </div>
                 </div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.jpg"/>
-                    <div class="price">秋季上新 最低35.9元</div>
-                    <div class="down">
-                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                        <div class="buy">立即购买</div>
+                    <img src="/static/images/home/home_2.png"/>
+                    <div class="price-box">
+                        <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                        <div class="down">
+                            <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                            <div class="buy">去抢购</div>
+                        </div>
                     </div>
                 </div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.jpg"/>
-                    <div class="price">秋季上新 最低35.9元</div>
-                    <div class="down">
-                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                        <div class="buy">立即购买</div>
-                    </div>
-                </div>
-                <div class="goods">
-                    <img src="/static/images/home/home_2.jpg"/>
-                    <div class="price">秋季上新 最低35.9元</div>
-                    <div class="down">
-                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                        <div class="buy">立即购买</div>
-                    </div>
-                </div>
-                <div class="goods">
-                    <img src="/static/images/home/home_2.jpg"/>
-                    <div class="price">秋季上新 最低35.9元</div>
-                    <div class="down">
-                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                        <div class="buy">立即购买</div>
+                    <img src="/static/images/home/home_2.png"/>
+                    <div class="price-box">
+                        <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                        <div class="down">
+                            <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                            <div class="buy">去抢购</div>
+                        </div>
                     </div>
                 </div>
               </div>
           </div>
+          <!-- 发现好货 -->
           <div class="container">
               <div class="recommend">
-                  <div class="chinese">精选专题</div>
-                  <div class="english">Selected Topics</div>
-                  <div class="more">更多专题 ></div>
+                <img class="icon" src="/static/images/home/icon_1.png"/>
+                <div class="chinese">发现好货</div>
+                <div class="english">品牌生活，给你更好的呵护</div>
+                <div class="more">发现更多好物 >></div>
               </div>
               <div class="goods-box">
-                  <div class="black-line"></div>
-                  <div class="two-img">
-                      <img class="left" src="/static/images/home/home_3.jpg">
-                      <img class="right" src="/static/images/home/home_3.jpg">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="recommend">
-                  <img class="icon" src="/static/images/home/home_4.jpg"/>
-                  <div class="chinese">个护美妆</div>
-                  <span>洁面</span><span>面膜</span><span>防晒</span><span>粉底</span><span>唇妆</span><span>香水</span><span>香皂</span>
-                  <div class="more">更多专题 ></div>
-              </div>
-              <div class="goods-box">
+                <div class="black-line"></div>
                   <div class="left-img">
+                    <img src="/static/images/home/home_3.png" class="backimg">
                       <div class="inside-box">
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
+                        <div class="up">不待巅峰 提前放价</div>
+                        <div class="mid">5万种图书</div>
+                        <div class="down">5折封顶</div>
                       </div>
                   </div>
-                  <div class="black-line"></div>
                   <div class="right-content">
                     <div class="small-goods">
-                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                        <div class="circle">
-                            <div class="up">79.00</div>
-                            <div class="down">129.00</div>
+                        <div class="left">
+                            <div class="img">个体美妆</div>
+                            <div class="up">蓝月亮</div>
+                            <div class="mid">满99立减50</div>
+                            <div class="down">去看看>></div>
+                        </div>
+                        <div class="right">
+                            <img class="imgbox" src="/static/images/home/home_1.png"/>
                         </div>
                     </div>
                     <div class="small-goods">
-                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                        <div class="circle">
-                            <div class="up">79.00</div>
-                            <div class="down">129.00</div>
+                        <div class="left">
+                            <div class="img">个体美妆</div>
+                            <div class="up">蓝月亮</div>
+                            <div class="mid">满99立减50</div>
+                            <div class="down">去看看>></div>
+                        </div>
+                        <div class="right">
+                            <img class="imgbox" src="/static/images/home/home_1.png"/>
                         </div>
                     </div>
                     <div class="small-goods">
-                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                        <div class="circle">
-                            <div class="up">79.00</div>
-                            <div class="down">129.00</div>
+                        <div class="left">
+                            <div class="img">个体美妆</div>
+                            <div class="up">蓝月亮</div>
+                            <div class="mid">满99立减50</div>
+                            <div class="down">去看看>></div>
+                        </div>
+                        <div class="right">
+                            <img class="imgbox" src="/static/images/home/home_1.png"/>
                         </div>
                     </div>
                     <div class="small-goods">
-                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                        <div class="circle">
-                            <div class="up">79.00</div>
-                            <div class="down">129.00</div>
+                        <div class="left">
+                            <div class="img">个体美妆</div>
+                            <div class="up">蓝月亮</div>
+                            <div class="mid">满99立减50</div>
+                            <div class="down">去看看>></div>
                         </div>
-                    </div>
-                    <div class="small-goods">
-                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                        <div class="circle">
-                            <div class="up">79.00</div>
-                            <div class="down">129.00</div>
-                        </div>
-                    </div>
-                    <div class="small-goods">
-                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                        <div class="circle">
-                            <div class="up">79.00</div>
-                            <div class="down">129.00</div>
+                        <div class="right">
+                            <img class="imgbox" src="/static/images/home/home_1.png"/>
                         </div>
                     </div>
                   </div>
               </div>
           </div>
+          <!-- 个护美妆 -->
           <div class="container">
               <div class="recommend">
-                  <img class="icon" src="/static/images/home/home_4.jpg"/>
-                  <div class="chinese">个护美妆</div>
-                  <span>洁面</span><span>面膜</span><span>防晒</span><span>粉底</span><span>唇妆</span><span>香水</span><span>香皂</span>
-                  <div class="more">更多专题 ></div>
+                <img class="icon" src="/static/images/home/icon_1.png"/>
+                <div class="chinese">个护美妆</div>
+                <div class="english">只用对的，不用贵的，做最美自己</div>
+                <div class="more">最美自己 >></div>
               </div>
               <div class="goods-box">
+                <div class="black-line"></div>
                   <div class="left-img">
-                      <div class="inside-box">
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
-                          <img src="/static/images/home/home_7.jpg"/>
+                        <img src="/static/images/home/home_5.png" class="backimg">
+                      <div class="inside-box2">
+                        <div class="up">美妆个护</div>
+                        <div class="mid">BEAUTY MAKEUP</div>
+                        <div class="down">满199元减100</div>
+                        <div class="foot"></div>
                       </div>
                   </div>
-                  <div class="black-line"></div>
                   <div class="right-content">
-                      <div class="three-small">
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
+                    <div class="mz-goods">
+                        <div class="up">
+                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                        </div>
+                        <div class="down">
+                            <div class="pone">￥588</div>
+                            <div class="ptwo">640</div>
+                            <div class="go">带回家>></div>
+                        </div>
+                    </div>
+                    <div class="mz-goods">
+                        <div class="up">
+                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                        </div>
+                        <div class="down">
+                            <div class="pone">￥588</div>
+                            <div class="ptwo">640</div>
+                            <div class="go">带回家>></div>
+                        </div>
+                    </div>
+                    <div class="mz-goods">
+                        <div class="up">
+                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                        </div>
+                        <div class="down">
+                            <div class="pone">￥588</div>
+                            <div class="ptwo">640</div>
+                            <div class="go">带回家>></div>
+                        </div>
+                    </div>
+                    <div class="mz-goods">
+                        <div class="up">
+                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                        </div>
+                        <div class="down">
+                            <div class="pone">￥588</div>
+                            <div class="ptwo">640</div>
+                            <div class="go">带回家>></div>
+                        </div>
+                    </div>
+                    <div class="mz-goods">
+                        <div class="up">
+                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                        </div>
+                        <div class="down">
+                            <div class="pone">￥588</div>
+                            <div class="ptwo">640</div>
+                            <div class="go">带回家>></div>
+                        </div>
+                    </div>
+                    <div class="mz-goods">
+                        <div class="up">
+                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                        </div>
+                        <div class="down">
+                            <div class="pone">￥588</div>
+                            <div class="ptwo">640</div>
+                            <div class="go">带回家>></div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!-- 图书文学 -->
+          <div class="container">
+              <div class="recommend">
+                <img class="icon" src="/static/images/home/icon_1.png"/>
+                <div class="chinese">图书文学</div>
+                <div class="english">书中自有黄金屋，书中自有黄金屋</div>
+                <div class="more">书的海洋 >></div>
+              </div>
+              <div class="goods-box">
+                <div class="black-line"></div>
+                  <div class="left-img">
+                    <img src="/static/images/home/home_3.png" class="backimg">
+                      <div class="inside-box">
+                        <div class="up">新书速递 低价尝鲜</div>
+                        <div class="mid">推荐图书</div>
+                        <div class="down">5折封顶</div>
                       </div>
-                      <div class="three-small">
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
+                  </div>
+                  <div class="right-content">
+                    <div class="ts-goods">
+                        <div class="up"> 
+                            <img class="upleft" src="/static/images/home/book1.png"/>
+                            <div class="upright">
+                                <img src="/static/images/home/hot.png"/>
+                                <div class="title">龙应台“人生三书”<span>华语世界畅销书</span></div>
+                                <div class="introduce">华语世界畅销书——龙应台“人生三书”，华人世界率性犀利的一枝笔，停下来，重新认识突然“长大”的儿女，继《野火集》后，龙应台这堂“人生课”中的三本“作业”，首次套装（《孩子你慢慢来》+《亲爱的安德烈》+《目送》），持续畅销两岸三地及华人世界。</div>
+                                <div class="price">$81.60<span>7.5折</span></div>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <div class="litle">
+                                <img class="bookpic" src="/static/images/home/book4.png"/>
+                                <div class="price">￥26.80<span>6.8折</span></div>
+                            </div>
+                            <div class="litle">
+                                <img class="bookpic" src="/static/images/home/book4.png"/>
+                                <div class="price">￥26.80<span>6.8折</span></div>
+                            </div>
+                            <div class="litle">
+                                <img class="bookpic" src="/static/images/home/book4.png"/>
+                                <div class="price">￥26.80<span>6.8折</span></div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!-- 家具厨具 -->
+          <div class="container">
+              <div class="recommend">
+                <img class="icon" src="/static/images/home/icon_1.png"/>
+                <div class="chinese">家具厨具</div>
+                <div class="english">爱家，爱生活，为你保驾护航</div>
+                <div class="more">更多 >></div>
+              </div>
+              <div class="goods-box">
+                <div class="black-line"></div>
+                  <div class="left-img">
+                    <img src="/static/images/home/home_7.png" class="backimg">
+                      <div class="inside-box3">
+                        <div class="up">家具器具</div>
+                        <div class="mid">满199减100</div>
+                        <div class="down">GO></div>
                       </div>
+                  </div>
+                  <div class="right-content">
+                    <div class="ts-goods">
+                        <div class="up"> 
+                            <div class="small-goods">
+                                <div class="left">
+                                    <div class="introduce">Midea电磁炉匀火触摸屏爆炒</div>
+                                    <div class="price">￥289</div>
+                                    <div class="discount">限时折扣>></div>
+                                </div>
+                                <div class="right">
+                                    <img class="imgbox" src="/static/images/home/home_6.png"/>
+                                </div>
+                            </div>
+                            <div class="small-goods">
+                                <div class="left">
+                                    <div class="introduce">Midea电磁炉匀火触摸屏爆炒</div>
+                                    <div class="price">￥289</div>
+                                    <div class="discount">限时折扣>></div>
+                                </div>
+                                <div class="right">
+                                    <img class="imgbox" src="/static/images/home/home_6.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <div class="litle">
+                                <img class="bookpic" src="/static/images/home/home_8.png"/>
+                                <div class="price">￥26.80<span>6.8折</span></div>
+                            </div>
+                            <div class="litle">
+                                <img class="bookpic" src="/static/images/home/home_6.png"/>
+                                <div class="price">￥26.80<span>6.8折</span></div>
+                            </div>
+                            <div class="litle">
+                                <img class="bookpic" src="/static/images/home/home_8.png"/>
+                                <div class="price">￥26.80<span>6.8折</span></div>
+                            </div>
+                        </div>
+                    </div>
                   </div>
               </div>
           </div>
