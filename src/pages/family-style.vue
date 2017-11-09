@@ -34,11 +34,21 @@
         msg: []   /* 定义一个空数组数据items */
       }
     },
-    mounted () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
+    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
       this.$http.get('/api/shop').then((res) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
         console.log(res)
         this.msg = res.body.data
       })
-    }}
+    },
+    computed: {
+      sortingSpObj: function () {
+        return {
+          active: this.isActive && !this.hasArrow,
+          sortingSp2: this.isActive && this.isSortingSp2 && !this.isActive3 && !this.hasArrow,
+          active3: this.isActive && this.isActive3 && !this.isSortingSp2 && !this.hasArrow
+        }
+      }
+    }
+  }
 </script>
 

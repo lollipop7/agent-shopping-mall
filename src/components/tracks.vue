@@ -38,7 +38,6 @@
     created () {
       this.$http.get('api/goods').then((data) => {
         this.trackLists = data.body.data.trackLists
-        console.log(data, this.trackLists)
       })
     }
   }

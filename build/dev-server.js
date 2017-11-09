@@ -25,10 +25,9 @@ const proxyTable = config.dev.proxyTable
 
 const app = express();
 const apiRoutes = express.Router();
-
+app.use('/api',apiRoutes);
 
 const goodsData = require('../data/goods.json');
-
 apiRoutes.get('/goods',function (req,res) {
   res.json({
     data: goodsData
@@ -41,13 +40,13 @@ apiRoutes.get('/footdata',function (req,res) {
     data: footSource
   })
 });
+
 const shopData = require('../data/shop.json');
 apiRoutes.get('/shop',function (req,res) {
   res.json({
     data: shopData
   })
 });
-app.use('/api',apiRoutes);
 
 const compiler = webpack(webpackConfig)
 
