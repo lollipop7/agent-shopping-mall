@@ -1,0 +1,151 @@
+//Created by lollipop 2017/11/8
+.channelCon {
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: $background-color;
+  .reachResults {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    color: $result-font-color;
+    font-size: 1.2rem;
+  }
+
+  .classfication {
+    margin: 12px auto;
+    padding: 16px 13px;
+    overflow: hidden;
+    background-color: $background-img;
+  }
+
+  .classificationTit {
+    width: 94px;
+  }
+
+  .classificationA {
+    width: 858px;
+    .inline-block {
+      padding-right: 40px;
+      padding-bottom: 8px;
+      color: $result-font-color;
+      font-size: 1.2rem;
+      line-height: 16px;
+      cursor:pointer;
+    }
+  }
+  .sorting {
+    height: 50px;
+    padding: 12px;
+    line-height: 24px;
+    background-color: $background-img;
+    span {
+      float: left;
+      cursor: pointer;
+    }
+    .sortingTit {
+      width: 86px;
+      height: 26px;
+      font-size: 1.4rem;
+    }
+    .sortingSp {
+      width: 60px;
+      height: 26px;
+      border: 1px solid #F3F3F3;
+      background: #F3F3F3 url(/static/images/sprite2.png) no-repeat 40px -473px;
+      line-height: 24px;
+      margin-right: 20px;
+      padding-left: 12px;
+      color: #666666;
+      font-size: 1.2rem;
+      &.active {
+        color: $theme-color;
+        border: 1px solid $theme-color;
+        background-color: $background-img;
+      }
+      &.active.sortingSp2 {
+        background-image: none;
+        padding-left: 0px;
+        width: 60px;
+        text-align: center;
+      }
+      &.active.active3 {
+        background-position: 40px -630px;
+      }
+    }
+  }
+  .shoppingCar {
+    padding: 10px 12px;
+    padding-bottom: 20px;
+    width: 245px;
+    height: 337px;
+    background-color: #fff;
+    position: relative;
+    float: left;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+  }
+  .shoppingCarTop {
+    width: 218px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .shoppingCarTop h3 {
+    width: 218px;
+    height: 22px;
+    margin-top: 5px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    table-layout: fixed;
+    word-break: break-all;
+  }
+  .shoppingCarTop p {
+    width: 218px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    table-layout: fixed;
+    word-break: break-all;
+  }
+  .shoppingCarFot {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 218px;
+    height: 32px;
+  }
+  .shoppingCarFot .shoppingCarFotPrice {
+    float: left;
+    width: auto;
+    font-size: 18px;
+    color: #333;
+    line-height: 32px;
+  }
+  .shoppingCarFot .shoppingCarFotPrice s {
+    font-size: 12px;
+    color: #999;
+    padding-left: 4px;
+  }
+  .like2 {
+    width: auto;
+    height: 24px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    color: #999;
+  }
+}

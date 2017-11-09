@@ -13,9 +13,11 @@ Vue.use(Router) /* 使用路由 */
 Vue.use(VueResource)
 
 export default new Router({
+  linkActiveClass: 'active',
+  linkExactActiveClass: 'active',
   routes: [ /* 进行路由配置，规定“/”引入到Hello组件 */
     {
-      path: '/',
+      path: '/homePage',
       name: 'HomePage',
       component: HomePage
     },
@@ -48,6 +50,10 @@ export default new Router({
       path: '/detail',
       name: 'DetailPage',
       component: DetailPage
+    },
+    {
+      path: '/',
+      redirect: '/homePage'
     }
   ]
 })

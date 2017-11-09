@@ -2,25 +2,25 @@
 <template lang="html">
   <div class="footer">
     <div class="mall-wrap clearfix">
-      <v-col span="16">
-        <v-row>
-          <v-col span="6" v-for="item in fotNav" class="pull-left">
+      <Col span="16">
+        <Row>
+          <Col span="6" v-for="item in fotNav" class="pull-left">
             <div class="fotNav">
               <h3>{{item.title}}</h3>
               <ul>
                 <li v-for="txt in item.txt"><span>{{txt}}</span></li>
               </ul>
             </div>
-          </v-col>
-        </v-row>
-      </v-col>
-      <v-col span="8">
-        <v-row>
-          <v-col span="12" v-for="img in er" class="pull-left er">
+          </Col>
+        </Row>
+      </Col>
+      <Col span="8">
+        <Row>
+          <Col span="12" v-for="img in er" class="pull-left er">
               <img :src="img" alt="二维码">
-          </v-col>
-        </v-row>
-      </v-col>
+          </Col>
+        </Row>
+      </Col>
     </div>
   </div>
 </template>

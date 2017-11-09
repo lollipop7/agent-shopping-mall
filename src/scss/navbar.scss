@@ -1,28 +1,44 @@
 //Created by lollipop 2017/11/7
 .navbar {
   border-bottom: 1px solid #000;
-  .ant-menu-horizontal {
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu {
+    width: 100px;
+    margin-right: 20px;
+    border-bottom: none;
+    display: inline-block;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover {
+    color: $theme-color;
     border-bottom: none;
   }
-  .ant-menu-item {
-    margin-right: 20px;
-    width: 100px;
-    font-size: 16px;
-    line-height: 40px;
-    display: block;
-    text-align: center;
-    font-weight: bold;
+  .ivu-menu-submenu-title span>i,
+  .ivu-menu-submenu-title>i {
+    margin-left: 68px;
   }
-  .ant-menu-horizontal > .ant-menu-item:hover,
-  .ant-menu-horizontal > .ant-menu-submenu:hover,
-  .ant-menu-horizontal > .ant-menu-item-active,
-  .ant-menu-horizontal > .ant-menu-submenu-active,
-  .ant-menu-horizontal > .ant-menu-item-open,
-  .ant-menu-horizontal > .ant-menu-submenu-open,
-  .ant-menu-horizontal > .ant-menu-item-selected,
-  .ant-menu-horizontal > .ant-menu-submenu-selected {
-    border-bottom: 2px solid $theme-color;
-    color: $theme-color;
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: $a-font-color;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    &:hover {
+      color: $theme-color;
+      border-bottom: 2px solid $theme-color;
+    }
+    &.active {
+      color: $theme-color;
+      border-bottom: 2px solid $theme-color;
+    }
   }
 }
 

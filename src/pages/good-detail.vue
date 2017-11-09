@@ -4,13 +4,11 @@
     <good-cart></good-cart>
     <p class="site-title">树懒果园 泰国进口大金煌芒果</p>
     <p class="site-cont">5斤装，约2-4个果，大！！！甜！！！</p>
-    <common-footer></common-footer>
   </div>
 </template>
 
 <script>
   import GoodCart from '../components/good-cart'
-  import CommonFooter from '../components/footer'
 
   export default {
     data () {
@@ -19,8 +17,7 @@
       }
     },
     components: {
-      GoodCart,
-      CommonFooter
+      GoodCart
     }
   }
 </script>

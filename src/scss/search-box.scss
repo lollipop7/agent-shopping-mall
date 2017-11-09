@@ -17,8 +17,10 @@
       width: 537px;
       overflow: hidden;
     }
-
-    input {
+    .ivu-input-group {
+      top: 0;
+    }
+    .ivu-input {
       width: 452px;
       border: 1px solid #FF5B63;
       background: #fff url(/static/images/sprite1.png) no-repeat -170px -131px;
@@ -26,9 +28,10 @@
       height: 36px;
       line-height: 36px;
     }
-    .ant-input-group-addon {
+    .ivu-input-group-append {
       width: 84px;
       background: $theme-color;
+      border: 1px solid $theme-color;
       color: #fff;
       height: 36px;
       font-size: 1.6rem;

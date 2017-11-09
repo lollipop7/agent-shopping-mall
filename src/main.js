@@ -4,9 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import './scss/main.scss'
-import 'vue-beauty/package/style/vue-beauty.min.css'
-import vueBeauty from 'vue-beauty'
-Vue.use(vueBeauty)
+import iView from 'iview'
+import 'iview/dist/styles/iview.css'
+Vue.use(iView)
 
 Vue.config.productionTip = false
 
