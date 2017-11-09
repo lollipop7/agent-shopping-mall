@@ -45,59 +45,55 @@
                   <div class="english">Recommend This Week</div>
               </div>
               <div class="goods-box">
-                  <div class="black-line"></div>
-                  <div class="three-goods">
-                      <div class="goods">
-                          <img src="/static/images/home/home_2.jpg"/>
-                          <div class="price">秋季上新 最低35.9元</div>
-                          <div class="down">
-                              <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                              <div class="buy">立即购买</div>
-                          </div>
-                      </div>
-                      <div class="goods">
-                          <img src="/static/images/home/home_2.jpg"/>
-                          <div class="price">秋季上新 最低35.9元</div>
-                          <div class="down">
-                              <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                              <div class="buy">立即购买</div>
-                          </div>
-                      </div>
-                      <div class="goods">
-                          <img src="/static/images/home/home_2.jpg"/>
-                          <div class="price">秋季上新 最低35.9元</div>
-                          <div class="down">
-                              <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                              <div class="buy">立即购买</div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="three-goods">
-                      <div class="goods">
-                          <img src="/static/images/home/home_2.jpg"/>
-                          <div class="price">秋季上新 最低35.9元</div>
-                          <div class="down">
-                              <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                              <div class="buy">立即购买</div>
-                          </div>
-                      </div>
-                      <div class="goods">
-                          <img src="/static/images/home/home_2.jpg"/>
-                          <div class="price">秋季上新 最低35.9元</div>
-                          <div class="down">
-                              <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                              <div class="buy">立即购买</div>
-                          </div>
-                      </div>
-                      <div class="goods">
-                          <img src="/static/images/home/home_2.jpg"/>
-                          <div class="price">秋季上新 最低35.9元</div>
-                          <div class="down">
-                              <div class="pone">35.90</div><div class="ptwo">49.00</div>
-                              <div class="buy">立即购买</div>
-                          </div>
-                      </div>
-                  </div>
+                <div class="black-line"></div>
+                <div class="goods">
+                    <img src="/static/images/home/home_2.jpg"/>
+                    <div class="price">秋季上新 最低35.9元</div>
+                    <div class="down">
+                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
+                        <div class="buy">立即购买</div>
+                    </div>
+                </div>
+                <div class="goods">
+                    <img src="/static/images/home/home_2.jpg"/>
+                    <div class="price">秋季上新 最低35.9元</div>
+                    <div class="down">
+                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
+                        <div class="buy">立即购买</div>
+                    </div>
+                </div>
+                <div class="goods">
+                    <img src="/static/images/home/home_2.jpg"/>
+                    <div class="price">秋季上新 最低35.9元</div>
+                    <div class="down">
+                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
+                        <div class="buy">立即购买</div>
+                    </div>
+                </div>
+                <div class="goods">
+                    <img src="/static/images/home/home_2.jpg"/>
+                    <div class="price">秋季上新 最低35.9元</div>
+                    <div class="down">
+                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
+                        <div class="buy">立即购买</div>
+                    </div>
+                </div>
+                <div class="goods">
+                    <img src="/static/images/home/home_2.jpg"/>
+                    <div class="price">秋季上新 最低35.9元</div>
+                    <div class="down">
+                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
+                        <div class="buy">立即购买</div>
+                    </div>
+                </div>
+                <div class="goods">
+                    <img src="/static/images/home/home_2.jpg"/>
+                    <div class="price">秋季上新 最低35.9元</div>
+                    <div class="down">
+                        <div class="pone">35.90</div><div class="ptwo">49.00</div>
+                        <div class="buy">立即购买</div>
+                    </div>
+                </div>
               </div>
           </div>
           <div class="container">
@@ -134,64 +130,60 @@
                   </div>
                   <div class="black-line"></div>
                   <div class="right-content">
-                      <div class="three-small">
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="three-small">
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                          <div class="small-goods">
-                              <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
-                              <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
-                              <img class="img-style" src="/static/images/home/home_6.jpg"/>
-                              <div class="circle">
-                                  <div class="up">79.00</div>
-                                  <div class="down">129.00</div>
-                              </div>
-                          </div>
-                      </div>
+                    <div class="small-goods">
+                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
+                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
+                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
+                        <div class="circle">
+                            <div class="up">79.00</div>
+                            <div class="down">129.00</div>
+                        </div>
+                    </div>
+                    <div class="small-goods">
+                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
+                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
+                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
+                        <div class="circle">
+                            <div class="up">79.00</div>
+                            <div class="down">129.00</div>
+                        </div>
+                    </div>
+                    <div class="small-goods">
+                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
+                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
+                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
+                        <div class="circle">
+                            <div class="up">79.00</div>
+                            <div class="down">129.00</div>
+                        </div>
+                    </div>
+                    <div class="small-goods">
+                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
+                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
+                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
+                        <div class="circle">
+                            <div class="up">79.00</div>
+                            <div class="down">129.00</div>
+                        </div>
+                    </div>
+                    <div class="small-goods">
+                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
+                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
+                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
+                        <div class="circle">
+                            <div class="up">79.00</div>
+                            <div class="down">129.00</div>
+                        </div>
+                    </div>
+                    <div class="small-goods">
+                        <div class="title">【双十一限量】佳洁士小头养银牙宏发科技树</div>
+                        <div class="introduce">双11特惠限量，享誉全球口腔护理品牌，耐用刷头，清洁护齿。</div>
+                        <img class="img-style" src="/static/images/home/home_6.jpg"/>
+                        <div class="circle">
+                            <div class="up">79.00</div>
+                            <div class="down">129.00</div>
+                        </div>
+                    </div>
                   </div>
               </div>
           </div>
