@@ -41,6 +41,12 @@ apiRoutes.get('/footdata',function (req,res) {
     data: footSource
   })
 });
+const shopData = require('../data/shop.json');
+apiRoutes.get('/shop',function (req,res) {
+  res.json({
+    data: shopData
+  })
+});
 app.use('/api',apiRoutes);
 
 const compiler = webpack(webpackConfig)
