@@ -26,6 +26,7 @@ module.exports = {
       '@': resolve('src'),
     }
   },
+  devtool: '#cheap-module-eval-source-map',
   module: {
     rules: [
       {

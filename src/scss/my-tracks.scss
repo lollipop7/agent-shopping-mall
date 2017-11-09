@@ -1,0 +1,49 @@
+//Created by lollipop 2017/11/9
+.Myfoot {
+  background-color: $background-img;
+  margin-bottom: 20px;
+  .footprintTop {
+    background-color: $background-color;
+    border-bottom: 1px solid #000;
+    h2 {
+      width: 85px;
+      height: 36px;
+      float: left;
+    }
+    span {
+      width: 93px;
+      height: 36px;
+      float: left;
+      background: url(/static/images/sprite1.png) no-repeat 0px -99px;
+    }
+    a {
+      width: 63px;
+      height: 36px;
+      float: left;
+      background: url(/static/images/sprite1.png) no-repeat -186px -86px;
+    }
+  }
+  .footprintConBox {
+    width: 245px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    text-align: center;
+    border-right: 1px solid #e7e7e7;
+    p {
+      width: 218px;
+      height: 30px;
+      text-overflow: -o-ellipsis-lastline;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      table-layout: fixed;
+      word-break: break-all;
+      padding-left: 10px;
+    }
+    .footprintConBoxPrice {
+      width: 190px;
+    }
+  }
+}
