@@ -1,0 +1,53 @@
+.beautyMakeup {
+  .p-title {
+    margin: 20px 0px;
+  }
+  .beauty-shop {
+    height: 700px;
+    .shoppingCar {
+      width: 220px;
+      height: 320px;
+      border: 1px solid #e7e7e7;
+      float: left;
+      margin: 11px;
+      .shoppingCarTop {
+        h3 {
+          width: 218px;
+          height: 22px;
+          margin-top: 5px;
+          line-height: 22px;
+          font-size: 14px;
+          color: #333;
+          text-overflow: -o-ellipsis-lastline;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          table-layout: fixed;
+          word-break: break-all;
+        }
+        p {
+          width: 218px;
+          height: 24px;
+          font-size: 12px;
+          line-height: 24px;
+          color: #999;
+          text-overflow: -o-ellipsis-lastline;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          table-layout: fixed;
+          word-break: break-all;
+        }
+      }
+    }
+    .shoppingCar:hover {
+      border: 1px solid #ff5b63;
+    }
+  }
+}
+
+
