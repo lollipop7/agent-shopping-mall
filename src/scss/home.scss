@@ -147,13 +147,13 @@
                     .small-goods{
                         float: left;
                         width: 366px;
-                        height: 246px;
+                        height: 235px;
                         cursor: pointer;
                         border-bottom: 1px #f2f2f2 solid;
                         border-right: 1px #f2f2f2 solid;
                         .left{
                             width:130px;
-                            height: 246px;
+                            height: 235px;
                             float: left;
                             *{
                                 margin: 0 20px;
@@ -220,6 +220,9 @@
                         width: 244px;
                         height: 234px;
                         float: left;
+                        border-right: 3px solid #f7f7f7;
+                        border-bottom: 3px solid #f7f7f7;
+                        cursor: pointer;
                         .up{
                             width:100%;
                             height: 170px;
@@ -259,6 +262,7 @@
                         }
                     }
                     .ts-goods{
+                        cursor: pointer;
                         .up{
                             overflow: hidden;
                             .upleft{
