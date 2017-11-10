@@ -26,7 +26,7 @@
                     </div>
                 </div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.png"/>
+                    <img src="/static/images/home/home_9.png"/>
                     <div class="price-box">
                         <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
                         <div class="down">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.png"/>
+                    <img src="/static/images/home/home_10.png"/>
                     <div class="price-box">
                         <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
                         <div class="down">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="goods">
-                    <img src="/static/images/home/home_2.png"/>
+                    <img src="/static/images/home/home_11.png"/>
                     <div class="price-box">
                         <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
                         <div class="down">
@@ -79,45 +79,45 @@
                     <div class="small-goods">
                         <div class="left">
                             <div class="img">个体美妆</div>
-                            <div class="up">蓝月亮</div>
+                            <div class="up">人生没有什么放不下</div>
                             <div class="mid">满99立减50</div>
                             <div class="down">去看看>></div>
                         </div>
                         <div class="right">
-                            <img class="imgbox" src="/static/images/home/home_1.png"/>
+                            <img class="imgbox" src="/static/images/home/home_12.png"/>
                         </div>
                     </div>
                     <div class="small-goods">
                         <div class="left">
                             <div class="img">个体美妆</div>
-                            <div class="up">蓝月亮</div>
+                            <div class="up">大卫科波菲尔</div>
                             <div class="mid">满99立减50</div>
                             <div class="down">去看看>></div>
                         </div>
                         <div class="right">
-                            <img class="imgbox" src="/static/images/home/home_1.png"/>
+                            <img class="imgbox" src="/static/images/home/home_13.png"/>
                         </div>
                     </div>
                     <div class="small-goods">
                         <div class="left">
                             <div class="img">个体美妆</div>
-                            <div class="up">蓝月亮</div>
+                            <div class="up">围城</div>
                             <div class="mid">满99立减50</div>
                             <div class="down">去看看>></div>
                         </div>
                         <div class="right">
-                            <img class="imgbox" src="/static/images/home/home_1.png"/>
+                            <img class="imgbox" src="/static/images/home/home_14.png"/>
                         </div>
                     </div>
                     <div class="small-goods">
                         <div class="left">
                             <div class="img">个体美妆</div>
-                            <div class="up">蓝月亮</div>
+                            <div class="up">挪威的森林</div>
                             <div class="mid">满99立减50</div>
                             <div class="down">去看看>></div>
                         </div>
                         <div class="right">
-                            <img class="imgbox" src="/static/images/home/home_1.png"/>
+                            <img class="imgbox" src="/static/images/home/home_15.png"/>
                         </div>
                     </div>
                   </div>
@@ -145,7 +145,7 @@
                   <div class="right-content">
                     <div class="mz-goods">
                         <div class="up">
-                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                            <img class="imgbox" src="/static/images/home/home_16.png"/>
                         </div>
                         <div class="down">
                             <div class="pone">￥588</div>
@@ -155,7 +155,7 @@
                     </div>
                     <div class="mz-goods">
                         <div class="up">
-                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                            <img class="imgbox" src="/static/images/home/home_17.png"/>
                         </div>
                         <div class="down">
                             <div class="pone">￥588</div>
@@ -165,7 +165,7 @@
                     </div>
                     <div class="mz-goods">
                         <div class="up">
-                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                            <img class="imgbox" src="/static/images/home/home_18.png"/>
                         </div>
                         <div class="down">
                             <div class="pone">￥588</div>
@@ -175,7 +175,7 @@
                     </div>
                     <div class="mz-goods">
                         <div class="up">
-                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                            <img class="imgbox" src="/static/images/home/home_19.png"/>
                         </div>
                         <div class="down">
                             <div class="pone">￥588</div>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="mz-goods">
                         <div class="up">
-                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                            <img class="imgbox" src="/static/images/home/home_20.png"/>
                         </div>
                         <div class="down">
                             <div class="pone">￥588</div>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="mz-goods">
                         <div class="up">
-                            <img class="imgbox" src="/static/images/home/home_6.png"/>
+                            <img class="imgbox" src="/static/images/home/home_21.png"/>
                         </div>
                         <div class="down">
                             <div class="pone">￥588</div>
@@ -237,7 +237,7 @@
                         </div>
                         <div class="down">
                             <div class="litle">
-                                <img class="bookpic" src="/static/images/home/book4.png"/>
+                                <img class="bookpic" src="/static/images/home/book3.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </div>
                             <div class="litle">
@@ -245,7 +245,7 @@
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </div>
                             <div class="litle">
-                                <img class="bookpic" src="/static/images/home/book4.png"/>
+                                <img class="bookpic" src="/static/images/home/book2.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </div>
                         </div>
@@ -291,7 +291,7 @@
                                     <div class="discount">限时折扣>></div>
                                 </div>
                                 <div class="right">
-                                    <img class="imgbox" src="/static/images/home/home_6.png"/>
+                                    <img class="imgbox" src="/static/images/home/home_22.png"/>
                                 </div>
                             </div>
                         </div>
@@ -301,11 +301,11 @@
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </div>
                             <div class="litle">
-                                <img class="bookpic" src="/static/images/home/home_6.png"/>
+                                <img class="bookpic" src="/static/images/home/home_1.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </div>
                             <div class="litle">
-                                <img class="bookpic" src="/static/images/home/home_8.png"/>
+                                <img class="bookpic" src="/static/images/home/home_23.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </div>
                         </div>
