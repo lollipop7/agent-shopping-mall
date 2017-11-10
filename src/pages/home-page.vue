@@ -309,7 +309,7 @@
                             </div>
                             <div class="litle">
                                 <img class="bookpic" src="/static/images/home/home_6.png"/>
-                                <div class="price">￥26.80<span>6.8折</span></div>
+                                <div class="price">￥26.80<span>7.8折</span></div>
                             </div>
                             <div class="litle">
                                 <img class="bookpic" src="/static/images/home/home_8.png"/>
