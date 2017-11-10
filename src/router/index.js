@@ -8,6 +8,7 @@ import FamilyStylePage from '@/pages/family-style'
 import BabyToyPage from '@/pages/baby-toy'
 import DietHealthyPage from '@/pages/diet-healthy'
 import DetailPage from '@/pages/good-detail'
+import LoginPage from '@/pages/login'
 
 Vue.use(Router) /* 使用路由 */
 Vue.use(VueResource)
@@ -50,6 +51,11 @@ export default new Router({
       path: '/detail',
       name: 'DetailPage',
       component: DetailPage
+    },
+    {
+      path: '/login',
+      name: 'LoginPage',
+      component: LoginPage
     },
     {
       path: '/',

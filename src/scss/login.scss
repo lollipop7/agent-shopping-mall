@@ -1,0 +1,121 @@
+.login{
+    .header{
+        height: 30px;
+        width: 100%;
+        background: #f7f8f9;
+        span{
+            color: #515567;
+            line-height: 30px;
+            float: right;
+        }
+    }
+    .title{
+        height: 94px;
+        width: 100%;
+        background: white;
+        border-top: 1px solid #edeff2;
+        border-bottom: 1px solid #edeff2;
+        .left-content{
+            *{
+                float: left;
+                margin-top: 30px;
+                overflow: hidden;
+            }
+            .logo{
+                height: 24px;
+            }
+            .line{
+                height: 24px;
+                width: 1px;
+                margin-left: 10px;
+                margin-right: 10px;
+                background: #eeeeee;
+            }
+            .word{
+                font-size: 22px;
+                font-weight: bolder;
+            }
+        }
+        .tel{
+            float: right;
+            color: #666666;
+            font-size: 12px;
+            line-height: 94px;
+        }
+    }
+    .banner-box{
+        height: 816px;
+        width: 100%;
+        position: relative;
+        .banner{
+            position: absolute;
+            left: 50%;
+            margin-left: -960px;
+            z-index: 8;
+        }
+        .login-box{
+            position: absolute;
+            width: 440px;
+            height: 360px;
+            background: white;
+            z-index: 9;
+            top: 100px;
+            right: 20%;
+            .blank{
+                height: 46px;
+            }
+            .name{
+                color: #666666;
+                font-size: 14px;
+                margin-left: 40px;
+            }
+            input{
+                margin-top: 6px;
+                margin-bottom: 22px;
+                border: #e5e5e5 1px solid;
+                width: 360px;
+                height: 50px;
+                margin-left: 40px;
+                color: #a9a9a9;
+                font-size: 14px;
+                padding: 14px 10px;
+            }
+            .login{
+                height: 50px;
+                width: 360px;
+                background: #ff6600;
+                color: white;
+                line-height: 50px;
+                font-size: 18px;
+                text-align: center;
+                margin-left: 40px;
+                margin-top: 22px;
+                cursor: pointer;
+            }
+            .forgot{
+                font-size: 12px;
+                color: #00c1ff;
+                float: right;
+                margin-right: 40px;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+    .content{
+        width: 980px;
+        margin: 0 auto;
+        .down-word{
+            font-size: 12px;
+            color: #525252;
+            text-align: center;
+            margin-top: 22px;
+            margin-bottom: 12px;
+        }
+        .down-pic{
+            width:344px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
