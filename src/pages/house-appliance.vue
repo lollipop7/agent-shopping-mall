@@ -39,7 +39,17 @@
         console.log(res)
         this.msg = res.body.data
       })
-    }}
+    },
+    computed: {
+      sortingSpObj: function () {
+        return {
+          active: this.isActive && !this.hasArrow,
+          sortingSp2: this.isActive && this.isSortingSp2 && !this.isActive3 && !this.hasArrow,
+          active3: this.isActive && this.isActive3 && !this.isSortingSp2 && !this.hasArrow
+        }
+      }
+    }
+  }
 </script>
 
 
