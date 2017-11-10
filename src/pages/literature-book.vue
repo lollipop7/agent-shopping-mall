@@ -53,7 +53,7 @@
   import classification from '../components/classification'
   import CommonCommend from '../components/commend'
   import mytracks from '../components/tracks'
-  import data from '../data/goods.json'
+  import data from '../../static/data/goods.json'
   export default {
     data () {
       return {

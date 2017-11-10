@@ -1,0 +1,74 @@
+[
+  {
+    "imgUrl":"/static/images/food/1.jpg",
+    "name":" 夹心饼干 脆脆鲨 巧克力味威化 640g",
+    "price":"24.90",
+    "sail":"已售18万件"
+  },
+  {
+    "imgUrl":"/static/images/food/2.jpg",
+    "name":"盐津铺子 鱼豆腐素肉豆干小吃混合",
+    "price":"32.9",
+    "sail":"已售16万件"
+  },
+  {
+    "imgUrl":"/static/images/food/3.jpg",
+    "name":" 104g*3组合装（原味+烤肉+番茄）新老包装，随机发货",
+    "price":"19.90",
+    "sail":"已售88万件"
+  },
+  {
+    "imgUrl":"/static/images/food/4.jpg",
+    "name":" 老式大辣片 辣条豆干 200g/袋",
+    "price":"19.90",
+    "sail":"已售21万件"
+  },
+  {
+    "imgUrl":"/static/images/food/5.jpg",
+    "name":" 糯米锅巴 原味400g",
+    "price":"11.9",
+    "sail":"已售16万件"
+  },
+  {
+    "imgUrl":"/static/images/food/6.jpg",
+    "name":" 正宗马来西亚风味 虾条 （20g*40包） 800g/袋",
+    "price":"10.9",
+    "sail":"已售36万件"
+  },
+  {
+    "imgUrl":"/static/images/food/7.jpg",
+    "name":" 干脆面串烧味 小贱拉面丸子85g/袋",
+    "price":"11.90",
+    "sail":"已售63万件"
+  },
+  {
+    "imgUrl":"/static/images/food/8.jpg",
+    "name":"品麻辣小吃礼包 258g",
+    "price":"7.9",
+    "sail":"已售10万件"
+  },
+  {
+    "imgUrl":"/static/images/food/9.jpg",
+    "name":"特产约辣辣条200g/盒 ",
+    "price":"9.9",
+    "sail":"已售33万件"
+  },
+  {
+    "imgUrl":"/static/images/food/10.jpg",
+    "name":"千里挑一 送女友 1001g B套餐",
+    "price":"32.9",
+    "sail":"已售13万件"
+  },
+  {
+    "imgUrl":"/static/images/food/11.jpg",
+    "name":" 禛香肥牛大豆素肉 牛肉味 20g",
+    "price":"0.8",
+    "sail":"已售103万件"
+  },
+  {
+    "imgUrl":"/static/images/food/12.jpg",
+    "name":"多儿比（Dolbee）黄桃水果罐头 ",
+    "price":"6.5",
+    "sail":"已售153万件"
+  }
+]

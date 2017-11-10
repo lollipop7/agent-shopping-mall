@@ -1,0 +1,74 @@
+[
+  {
+    "imgUrl":"/static/images/shop/1.jpg",
+    "name":"珀莱雅清透保湿4件套",
+    "price":"199.0",
+    "sail":"已售188件"
+  },
+  {
+    "imgUrl":"/static/images/shop/2.jpg",
+    "name":"珀莱雅愉悦舒活弹力保湿套盒",
+    "price":"49.9",
+    "sail":"已售16件"
+  },
+  {
+    "imgUrl":"/static/images/shop/3.jpg",
+    "name":"珀莱雅海洋净颜舒缓卸妆水优惠装",
+    "price":"69.0",
+    "sail":"已售88件"
+  },
+  {
+    "imgUrl":"/static/images/shop/4.jpg",
+    "name":"珀莱雅海洋透皙白·藻萃莹亮乳",
+    "price":"128.0",
+    "sail":"已售218件"
+  },
+  {
+    "imgUrl":"/static/images/shop/5.jpg",
+    "name":"珀莱雅美白纪念套装",
+    "price":"289",
+    "sail":"已售16件"
+  },
+  {
+    "imgUrl":"/static/images/shop/6.jpg",
+    "name":"珀莱雅密集保湿眼霜 25g",
+    "price":"109",
+    "sail":"已售36件"
+  },
+  {
+    "imgUrl":"/static/images/shop/7.jpg",
+    "name":"水漾倾心深海嫩肤套装",
+    "price":"299.0",
+    "sail":"已售63件"
+  },
+  {
+    "imgUrl":"/static/images/shop/8.jpg",
+    "name":"珀莱雅水动力活润精选套装",
+    "price":"209.9",
+    "sail":"已售10件"
+  },
+  {
+    "imgUrl":"/static/images/shop/9.jpg",
+    "name":"珀莱雅水动力精华液 40ml",
+    "price":"108",
+    "sail":"已售33件"
+  },
+  {
+    "imgUrl":"/static/images/shop/10.jpg",
+    "name":"水漾肌密细肤水(清爽型) 150ml",
+    "price":"108",
+    "sail":"已售13件"
+  },
+  {
+    "imgUrl":"/static/images/shop/11.jpg",
+    "name":"珀莱雅密集保湿爽肤水 150ml",
+    "price":"76",
+    "sail":"已售103件"
+  },
+  {
+    "imgUrl":"/static/images/shop/12.jpg",
+    "name":"人鱼公主晶滢之海面膜组合35片装",
+    "price":"199.0",
+    "sail":"已售153件"
+  }
+]

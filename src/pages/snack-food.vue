@@ -1,7 +1,7 @@
 <!--Created by lollipop 2017/11/7-->
 <template>
     <div class="mall-wrap beautyMakeup">
-        <p class="p-title">当前“个体美妆”共1000件商品</p>
+        <p class="p-title">当前“休闲食品”共1000件商品</p>
         <div class="content clearfix channelCon">
             <div class="sorting">
               <div class="sorting-cate pull-left">
@@ -30,18 +30,19 @@
     </div>
 </template>
 <script>
+  import data from '../../static/data/food.json'
   export default {
     data () {
       return {
-        msg: []   /* 定义一个空数组数据items */
+        msg: data   /* 定义一个空数组数据items */
       }
     },
-    mounted () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
-      this.$http.get('/api/shop').then((res) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
-        console.log(res)
-        this.msg = res.body.data
-      })
-    },
+//    mounted () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
+//      this.$http.get('/api/shop').then((res) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
+//        console.log(res)
+//        this.msg = res.body.data
+//      })
+//    },
     computed: {
       sortingSpObj: function () {
         return {

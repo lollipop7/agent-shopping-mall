@@ -27,21 +27,21 @@ const app = express();
 const apiRoutes = express.Router();
 app.use('/api',apiRoutes);
 
-const goodsData = require('../src/data/goods.json');
+const goodsData = require('../static/data/goods.json');
 apiRoutes.get('/goods',function (req,res) {
   res.json({
     data: goodsData
   })
 });
 
-const footSource = require('../src/data/footer.json');
+const footSource = require('../static/data/footer.json');
 apiRoutes.get('/footdata',function (req,res) {
   res.json({
     data: footSource
   })
 });
 
-const shopData = require('../src/data/shop.json');
+const shopData = require('../static/data/shop.json');
 apiRoutes.get('/shop',function (req,res) {
   res.json({
     data: shopData
