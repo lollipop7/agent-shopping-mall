@@ -1,18 +1,18 @@
 <!--Created by lollipop 2017/11/7-->
-<template lang="html">
+<template>
   <div class="detail mall-wrap">
     <div class="container">
-        <p class="site-cont">手机>手机通讯>手机>Apple >AppleiPhone 8</p>
+      <p class="site-cont"><b style="font-size: 18px">图书文学</b>>文学>自在独行：贾平凹的独行世界（陈坤推荐）</p>
         <div class="productDetails">
-            <img src="/static/images/detail/iphone.jpg" width="440" height="440"/>
+            <img src="/static/images/detail/bigBook.png" width="440" height="440"/>
             <div class="productDetailInfo">
                 <h2>
                     <img src="/static/images/detail/fubao.png"/>
-                    Apple iPhone 8 (A1863) 64GB 金色 移动联通电信4G手机
+                    自在独行：贾平凹的独行世界（陈坤推荐）
                 </h2>
                 <div class="price">
-                    <span class="marketPrice">参&nbsp;&nbsp;考&nbsp;&nbsp;价：<s>5888.00</s></span><br/>
-                    <span class="lovePrice">京&nbsp;&nbsp;东&nbsp;&nbsp;价：<span><b>￥4777.00</b></span></span>
+                    <span class="marketPrice">参&nbsp;&nbsp;考&nbsp;&nbsp;价：<s>39.00</s></span><br/>
+                    <span class="lovePrice">京&nbsp;&nbsp;东&nbsp;&nbsp;价：<span><b>￥37.10</b></span></span>
                     <!--<span class="like">0</span>-->
                 </div>
                 <div class="adress">
@@ -61,19 +61,19 @@
             <div class="detailLeftBottom">
                 <p class="browser">&nbsp;&nbsp;&nbsp;最近浏览</p>
                 <div class="title">
-                    <img src="/static/images/detail/iphone.jpg" width="180" height="180"/>
+                    <img src="/static/images/detail/browser.png" width="150" height="150"/>
                     <p>不畏将来,不念过去——《我的前半生》演员张龄心 诚意推荐</p>
-                    <p style="color: #e60012; font-weight: bold">￥32.80</p>
+                    <p style="color: #e60012; font-weight: bold; line-height: 35px">￥32.80</p>
                 </div>
                 <div class="title">
-                    <img src="/static/images/detail/iphone.jpg" width="180" height="180"/>
+                    <img src="/static/images/detail/browser.png" width="150" height="150"/>
                     <p>不畏将来,不念过去——《我的前半生》演员张龄心 诚意推荐</p>
-                    <p style="color: #e60012; font-weight: bold">￥32.80</p>
+                    <p style="color: #e60012; font-weight: bold; line-height: 35px">￥32.80</p>
                 </div>
                 <div class="title">
-                    <img src="/static/images/detail/iphone.jpg" width="180" height="180"/>
+                    <img src="/static/images/detail/browser.png" width="150" height="150"/>
                     <p>不畏将来,不念过去——《我的前半生》演员张龄心 诚意推荐</p>
-                    <p style="color: #e60012; font-weight: bold">￥32.80</p>
+                    <p style="color: #e60012; font-weight: bold; line-height: 35px">￥32.80</p>
                 </div>
             </div>
         </div>
@@ -91,20 +91,14 @@
                     <li>用纸：胶版纸</li>
                 </ul>
             </div>
-            <img src="/static/images/detail/iphoneDetail.jpg" width="100%"/>
+            <img src="/static/images/detail/detail.png" width="100%"/>
 
         </div>
-        <!--<div class="detailRight"></div>-->
-        <!--<h2>商品详情 <i>Product Details</i></h2>-->
-        <!--<img src="/static/images/detail/iphoneDetail.jpg" width="100%"/>-->
     </div>
-
   </div>
 </template>
 <script>
-//  import GoodCart from '../components/good-cart'
   import CityData from '../../data/city.json'
-
   export default {
     data () {
       return {
@@ -124,32 +118,6 @@
     }
   }
 </script>
-
-<style lang="css">
-  .detail {
-    padding: 0.25rem;
-    font-size: 12px;
-  }
-  .detail > img {
-    display: block;
-    width: 80%;
-    margin:  0 auto 0.5rem;
-  }
-  .detail > p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    text-align: left;
-    padding-bottom: 0.5rem;
-  }
-  .detail > p.site-title {
-    color: #ff8000;
-  }
-  .detail > p.site-cont {
-    color: #666;
-    font-size: 0.9rem;
-    margin: 20px 0px;
-  }
-</style>
 
 
 
