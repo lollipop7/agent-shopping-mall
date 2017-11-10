@@ -92,31 +92,30 @@
                 </ul>
             </div>
             <img src="/static/images/detail/detail.png" width="100%"/>
-
         </div>
     </div>
   </div>
 </template>
 <script>
-  import CityData from '../../static/data/city.json'
-  export default {
-    data () {
-      return {
-        CityData,
-        num: 1
-      }
-    },
-    methods: {
-      addNum () {
-        this.num = this.num + 1
-      },
-      reduceNum () {
-        if (this.num > 1) {
-          this.num = this.num - 1
-        }
-      }
-    }
-  }
+//  import CityData from '../../static/data/city.json'
+//  export default {
+//    data () {
+//      return {
+//        CityData,
+//        num: 1
+//      }
+//    },
+//    methods: {
+//      addNum () {
+//        this.num = this.num + 1
+//      },
+//      reduceNum () {
+//        if (this.num > 1) {
+//          this.num = this.num - 1
+//        }
+//      }
+//    }
+ // }
 </script>
 
 

@@ -6,9 +6,9 @@
                 <div class="left-content">
                     <img class="logo" src="/static/images/home/logo.png"/>
                     <span class="line"></span>
-                    <span class="word">员工关爱平台</span>
+                    <span class="word">9151福宝平台</span>
                 </div>
-                <span class="tel">客服：400-888-5818</span>
+                <span class="tel">客服：400-8856-112</span>
             </div>
         </div>
         <div class="banner-box">
