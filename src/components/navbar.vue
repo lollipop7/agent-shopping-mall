@@ -46,11 +46,13 @@
         </MenuItem>
       </Menu>
       <div class="shop-cart">
-        <a href="javascript:void(0)" style="padding-top: 10px">
-          <img src="/static/images/nav-bar/icon-gouwuche.png" alt="">
-          <span>购物车</span>
-          <i class="ivu-icon ivu-icon-ios-arrow-down ivu-menu-submenu-title-icon"></i>
-        </a>
+        <router-link to="/login">
+          <a href="javascript:void(0)" style="padding-top: 10px">
+            <img src="/static/images/nav-bar/icon-gouwuche.png" alt="">
+            <span>购物车</span>
+            <i class="ivu-icon ivu-icon-ios-arrow-down ivu-menu-submenu-title-icon"></i>
+          </a>
+        </router-link>
       </div>
     </div>
   </div>

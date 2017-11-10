@@ -4,7 +4,7 @@
     <div class="mall-wrap clearfix">
       <ul class="pull-left welcome">
         <li>
-          <span>嗨，欢迎光临51福宝，请</span><a href="javascript:void(0)">【登陆】</a>
+          <span>嗨，欢迎光临51福宝，请</span><a href="javascript:void(0)"><router-link to="/login">【登陆】</router-link></a>
         </li>
       </ul>
       <div class="pull-right tel">400 8856112</div>
@@ -22,8 +22,10 @@
           <MenuItem name="2-4">修改订单</MenuItem>
         </Submenu>
         <MenuItem name="3">
-          <Icon type="android-cart"></Icon>
-          购物车
+          <router-link to="/login">
+            <Icon type="android-cart"></Icon>
+            购物车
+          </router-link>
         </MenuItem>
         <MenuItem name="4">
           帮助中心
