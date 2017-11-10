@@ -5,20 +5,21 @@
       search-box
       navbar
       router-view
-      <!--common-footer-->
+      common-footer
 </template>
 
 <script>
   import CommonHeader from './components/header'   /* 本页面中用到了HomeHeader组件，所以就需要在这里引入一下 */
   import SearchBox from './components/search-box'
   import Navbar from './components/navbar'
-//  import CommonFooter from './components/footer'
+  import CommonFooter from './components/footer'
   export default {
     name: 'app',
     components: {
       CommonHeader,
       SearchBox,
-      Navbar
+      Navbar,
+      CommonFooter
     }
   }
 </script>

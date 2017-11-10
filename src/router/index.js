@@ -1,12 +1,13 @@
 import Vue from 'vue' /* 引用vue文件 */
 import Router from 'vue-router' /* 引用vue路由模块，并赋值给变量Router */
 import VueResource from 'vue-resource'
-import HomePage from '@/pages/home'  /* HelloWorld.vue模版，并赋值给变量HelloWorld,这里是“@”相当于“../” */
-import HouseAppliancePage from '@/pages/house-appliance'
+import HomePage from '@/pages/home-page'  /* HelloWorld.vue模版，并赋值给变量HelloWorld,这里是“@”相当于“../” */
+import SnackFoodPage from '@/pages/snack-food'
 import BeautyMakeupPage from '@/pages/beauty-makeup'
-import FamilyStylePage from '@/pages/family-style'
+import LiteratureBookPage from '@/pages/literature-book'
+import HouseAppliancePage from '@/pages/house-appliance'
 import BabyToyPage from '@/pages/baby-toy'
-import DietHealthyPage from '@/pages/diet-healthy'
+import DigitalMallPage from '@/pages/digital-mall'
 import DetailPage from '@/pages/good-detail'
 import LoginPage from '@/pages/login'
 
@@ -23,9 +24,9 @@ export default new Router({
       component: HomePage
     },
     {
-      path: '/houseAppliance',
-      name: 'HouseAppliancePage',
-      component: HouseAppliancePage
+      path: '/snackFood',
+      name: 'SnackFoodPage',
+      component: SnackFoodPage
     },
     {
       path: '/beautyMakeup',
@@ -33,9 +34,14 @@ export default new Router({
       component: BeautyMakeupPage
     },
     {
-      path: '/familyStyle',
-      name: 'FamilyStylePage',
-      component: FamilyStylePage
+      path: '/literatureBook',
+      name: 'LiteratureBookPage',
+      component: LiteratureBookPage
+    },
+    {
+      path: '/houseAppliance',
+      name: 'HouseAppliancePage',
+      component: HouseAppliancePage
     },
     {
       path: '/babyToy',
@@ -43,9 +49,9 @@ export default new Router({
       component: BabyToyPage
     },
     {
-      path: '/dietHealthy',
-      name: 'DietHealthyPage',
-      component: DietHealthyPage
+      path: '/digitalMall',
+      name: 'DigitalMallPage',
+      component: DigitalMallPage
     },
     {
       path: '/detail',

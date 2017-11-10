@@ -4,11 +4,13 @@
         <p class="p-title">当前“个体美妆”共1000件商品</p>
         <div class="content clearfix channelCon">
             <div class="sorting">
+              <div class="sorting-cate pull-left">
                 <span class="sortingTit">排序方式：</span>
                 <span class="sortingSp" >默认</span>
                 <span class="sortingSp" >销量</span>
                 <span class="sortingSp" >人气</span>
                 <span class="sortingSp" >价格</span>
+              </div>
             </div>
         </div>
         <div class="beauty-shop">

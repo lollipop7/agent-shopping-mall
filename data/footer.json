@@ -3,23 +3,23 @@
     {
       "img": "/static/images/footer/icon-1.png",
       "title": "保证正品",
-      "txt": [
-        "正品保证，放心购买"
-      ]
+      "txt": "正品保证，放心购买"
+
     },
     {
       "img": "/static/images/footer/icon-2.png",
       "title": "品类丰富",
-      "txt": [
-        "品牌齐全，轻松购物"
-      ]
+      "txt": "品牌齐全，轻松购物"
     },
     {
       "img": "/static/images/footer/icon-3.png",
       "title": "快速发货",
-      "txt": [
-        "多仓直发，极速配送"
-      ]
+      "txt": "多仓直发，极速配送"
+    },
+    {
+      "img": "/static/images/footer/icon-4.png",
+      "title": "售后无忧",
+      "txt": "退换无忧，维修无忧"
     }
   ],
   "fotCol": [
@@ -29,7 +29,6 @@
         "账户管理",
         "会员优惠",
         "发票制度",
-        "账户管理",
         "售后服务政策"
       ]
     },{
