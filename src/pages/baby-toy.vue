@@ -53,11 +53,12 @@
   import classification from '../components/classification'
   import CommonCommend from '../components/commend'
   import mytracks from '../components/tracks'
+  import data from '../data/goods.json'
   export default {
     data () {
       return {
-        babyToys: [],   /* 定义一个空数组数据items */
-        classificationA: [],
+        babyToys: data.babyToys,   /* 定义一个空数组数据items */
+        classificationA: data.classificationA.babyToySorts,
         isActive: true,
         isSortingSp2: true,
         isActive3: false,
@@ -69,13 +70,12 @@
       CommonCommend,
       mytracks
     },
-    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
-      this.$http.get('/api/goods').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
-//        console.log(data)
-        this.babyToys = data.body.data.babyToys
-        this.classificationA = data.body.data.classificationA.babyToySorts
-      })
-    },
+//    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
+//      this.$http.get('/api/goods').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
+//        this.babyToys = data.body.data.babyToys
+//        this.classificationA = data.body.data.classificationA.babyToySorts
+//      })
+//    },
     computed: {
       sortingSpObj: function () {
         return {

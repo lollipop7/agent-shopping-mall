@@ -19,10 +19,10 @@
         <div class="sorting">
           <div class="sorting-cate pull-left">
             <span class="sortingTit" >排序方式：</span>
-            <span class="sortingSp" :class="sortingSpObj">默认</span>
-            <span class="sortingSp" :class="sortingSpObj">销量</span>
-            <span class="sortingSp" :class="sortingSpObj">人气</span>
-            <span class="sortingSp" :class="sortingSpObj">价格</span>
+            <span class="sortingSp">默认</span>
+            <span class="sortingSp">销量</span>
+            <span class="sortingSp">人气</span>
+            <span class="sortingSp">价格</span>
           </div>
           <div class="sort-page pull-right">
             <Page :current="2" :total="50" simple></Page>
@@ -31,7 +31,7 @@
         <ul class="cont-ul mt13 clearfix">
           <!-- list组件展示区，并用v-for来将数据遍历，:xx="xxx" 是用来给子组件传递数据的 -->
           <common-commend
-            v-for="(babyToy,index) in babyToys"
+            v-for="(babyToy,index) in digitalMall"
             :key="babyToy.index"
             :cartP="babyToy.cartP"
             :oriP="babyToy.oriP"
@@ -53,11 +53,12 @@
   import classification from '../components/classification'
   import CommonCommend from '../components/commend'
   import mytracks from '../components/tracks'
+  import data from '../data/goods.json'
   export default {
     data () {
       return {
-        babyToys: [],   /* 定义一个空数组数据items */
-        classificationA: [],
+        digitalMall: data.digitalMall,
+        classificationA: data.classificationA.digitalMallSorts,
         isActive: true,
         isSortingSp2: true,
         isActive3: false,
@@ -68,23 +69,22 @@
       classification,
       CommonCommend,
       mytracks
-    },
-    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
-      this.$http.get('/api/goods').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
-//        console.log(data)
-        this.babyToys = data.body.data.babyToys
-        this.classificationA = data.body.data.classificationA.babyToySorts
-      })
-    },
-    computed: {
-      sortingSpObj: function () {
-        return {
-          active: this.isActive && !this.hasArrow,
-          sortingSp2: this.isActive && this.isSortingSp2 && !this.isActive3 && !this.hasArrow,
-          active3: this.isActive && this.isActive3 && !this.isSortingSp2 && !this.hasArrow
-        }
-      }
     }
+//    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
+//      this.$http.get('/api/goods').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
+//        this.babyToys = data.body.data.babyToys
+//        this.classificationA = data.body.data.classificationA.babyToySorts
+//      })
+//    },
+//    computed: {
+//      sortingSpObj: function () {
+//        return {
+//          active: this.isActive && !this.hasArrow,
+//          sortingSp2: this.isActive && this.isSortingSp2 && !this.isActive3 && !this.hasArrow,
+//          active3: this.isActive && this.isActive3 && !this.isSortingSp2 && !this.hasArrow
+//        }
+//      }
+//    }
   }
 </script>
 
