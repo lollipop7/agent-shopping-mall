@@ -4,7 +4,7 @@
     <div class="mall-wrap clearfix">
       <ul class="pull-left welcome">
         <li>
-          <span>嗨，欢迎光临51福宝，请</span><a href="javascript:void(0)"><router-link to="/login">【登陆】</router-link></a>
+          <span>嗨，欢迎光临9151福宝，请</span><a href="javascript:void(0)"><router-link to="/login">【登陆】</router-link></a>
         </li>
       </ul>
       <div class="pull-right tel">400 8856112</div>
