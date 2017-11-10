@@ -4,11 +4,11 @@
         <p class="p-title">当前“个体美妆”共1000件商品</p>
         <div class="content clearfix channelCon">
             <div class="sorting">
-                <span class="sortingTit" >排序方式：</span>
-                <span class="sortingSp" :class="sortingSpObj">默认</span>
-                <span class="sortingSp" :class="sortingSpObj">销量</span>
-                <span class="sortingSp" :class="sortingSpObj">人气</span>
-                <span class="sortingSp" :class="sortingSpObj">价格</span>
+                <span class="sortingTit">排序方式：</span>
+                <span class="sortingSp" >默认</span>
+                <span class="sortingSp" >销量</span>
+                <span class="sortingSp" >人气</span>
+                <span class="sortingSp" >价格</span>
             </div>
         </div>
         <div class="beauty-shop">
@@ -36,7 +36,6 @@
     },
     mounted () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
       this.$http.get('/api/shop').then((res) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
-        console.log(res)
         this.msg = res.body.data
       })
     }}
