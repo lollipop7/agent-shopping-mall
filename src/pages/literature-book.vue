@@ -30,7 +30,7 @@
     </div>
 </template>
 <script>
-  import data from '../../data/shop.json'
+  import data from '../data/shop.json'
   export default {
     data () {
       return {
