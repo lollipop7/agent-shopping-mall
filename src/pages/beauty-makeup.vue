@@ -1,7 +1,7 @@
 <!--Created by lollipop 2017/11/7-->
 <template>
     <div class="mall-wrap beautyMakeup">
-        <p class="p-title">当前“个体美妆”共1000件商品</p>
+        <p class="p-title">当前“个护美妆”共1000件商品</p>
         <div class="content clearfix channelCon">
             <div class="sorting">
               <div class="sorting-cate pull-left">
