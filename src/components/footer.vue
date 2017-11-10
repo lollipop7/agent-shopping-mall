@@ -1,8 +1,9 @@
 <!--Created by lollipop 2017/11/7-->
 <template lang="html">
   <div class="fot-sec">
-    <div class="traits mall-wrap clearfix">
-        <div v-for="(item, index) in traits" class="pull-left">
+    <div class="fot-sec1 clearfix">
+      <div class="mall-wrap">
+        <div v-for="(item, index) in traits" class="traits inline-block">
           <div class="table-cell">
             <img :src="item.img" alt="traits">
           </div>
@@ -11,10 +12,11 @@
             <p>{{item.txt}}</p>
           </div>
         </div>
+      </div>
     </div>
     <div class="fot-sec2">
       <div class="mall-wrap clearfix">
-        <div class="fot-col pull-left" v-for="((item,key), index) in fotCol">
+        <div class="fot-col pull-left" v-for="(item, key) in fotCol">
           <h3>{{item.title}}</h3>
           <div class="txt-row" v-for="(txt, index) in item.txt">
             <p>{{txt}}</p>
@@ -22,9 +24,9 @@
           <div class="ver-line" v-if="key != fotCol.length-1"></div>
         </div>
       </div>
-      <div class="copy-right">
-        <span v-for="(item, index) in copyRight">{{item}}</span>
-      </div>
+    </div>
+    <div class="copy-right mall-wrap" align="center">
+      <span v-for="(item, index) in copyRight">{{item}}</span>
     </div>
   </div>
 </template>
@@ -43,6 +45,7 @@
         this.traits = data.body.data.traits
         this.fotCol = data.body.data.fotCol
         this.copyRight = data.body.data.copyRight
+        console.log(data.body.data)
       })
     }
   }

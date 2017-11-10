@@ -1,22 +1,48 @@
 //Created by lollipop 2017/11/7
 .site-nav {
   width: 100%;
-  height: 2rem;
-  line-height: 2rem;
-  border-bottom: 1px solid #edeff2;
+  height: 30px;
+  line-height: 30px;
   font-size: 1.2rem;
   color: #515567;
   background-color: #f7f8f9;
-  overflow: hidden;
     li {
       float: left;
       span {
         line-height: 26px;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      a {
-        color: $font-color;
       }
     }
+  .welcome {
+    a {
+      color: #e60012;
+    }
+  }
+  .ivu-menu-light {
+    background: transparent;
+  }
+  .ivu-menu-horizontal {
+    height: 30px;
+    line-height: 30px;
+  }
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu {
+    border-bottom: none;
+    color: #666;
+  }
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active,
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover {
+    background-color: #fff;
+    color: #666;
+    border-bottom: none;
+  }
+  .ivu-icon-android-cart:before {
+    color: $theme-color;
+  }
+  .tel {
+    padding-left: 5px;
+    color: #e81928;
+    font-size: 1.4rem;
+  }
 }

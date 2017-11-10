@@ -1,6 +1,10 @@
 //Created by lollipop 2017/11/7
 .navbar {
-  border-bottom: 1px solid #000;
+  .ivu-menu-horizontal {
+    height: 40px;
+    line-height: 40px;
+  }
+  border-bottom: 2px solid $theme-color;
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item,
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu {
     width: 100px;
@@ -20,24 +24,39 @@
   .ivu-menu-submenu-title>i {
     margin-left: 68px;
   }
+  .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item {
+    padding: 2px 16px 2px;
+  }
   a {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: -1px;
-    font-weight: bold;
+    bottom: 0px;
     font-size: 1.6rem;
     color: $a-font-color;
     text-align: center;
-    border-bottom: 2px solid transparent;
+    //border-bottom: 2px solid transparent;
     &:hover {
       color: $theme-color;
-      border-bottom: 2px solid $theme-color;
+      //border-bottom: 2px solid $theme-color;
     }
     &.active {
       color: $theme-color;
-      border-bottom: 2px solid $theme-color;
+      //border-bottom: 2px solid $theme-color;
+    }
+  }
+  .mall-wrap {
+    position: relative;
+    .shop-cart {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 140px;
+      height: 100%;
+      z-index: 900;
+      display: table-cell;
+      vertical-align: middle;
     }
   }
 }

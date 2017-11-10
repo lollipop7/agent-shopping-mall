@@ -1,47 +1,48 @@
 //Created by lollipop 2017/11/7
 .search-box {
+  padding: 30px 0 20px 0;
   .logo {
-    width: 199px;
-    height: 60px;
+    width: 172px;
+    height: 59px;
     display: block;
-    background: url(/static/images/logo.png) no-repeat 0px 0px;
-  }
-
-  .mt32 {
-    margin-top: 3.2rem;
+    background: url(/static/images/search-box/logo.png) no-repeat 0px 0px;
   }
   .search {
-    width: 537px;
+    margin-left: 100px;
+    width: 405px;
     overflow: hidden;
-    .searchBox1, .searchBox2 {
-      width: 537px;
+    .searchBox1,
+    .searchBox2 {
+      width: 405px;
       overflow: hidden;
+    }
+    .searchBox2 {
+      padding-top: 10px;
+      a {
+        font-size: 1.2rem;
+        line-height: 22px;
+        color: #999;
+      }
     }
     .ivu-input-group {
       top: 0;
     }
     .ivu-input {
-      width: 452px;
-      border: 1px solid #FF5B63;
+      width: 322px;
+      border: 2px solid $theme-color;
       background: #fff url(/static/images/sprite1.png) no-repeat -170px -131px;
       padding-left: 36px;
       height: 36px;
       line-height: 36px;
     }
     .ivu-input-group-append {
-      width: 84px;
+      width: 82px;
       background: $theme-color;
-      border: 1px solid $theme-color;
+      border: 2px solid $theme-color;
       color: #fff;
       height: 36px;
       font-size: 1.6rem;
     }
-  }
-  .mt30 {
-    margin-top: 3rem;
-  }
-  .mb40 {
-    margin-bottom: 4rem;
   }
 
 }
