@@ -1,14 +1,76 @@
 <!--Created by lollipop 2017/11/7-->
 <template>
   <div class="navbar">
-    <div class="mall-wrap">
-      <!--<router-link to="/homePage" active-class="active">首页</router-link>-->
-      <!--<router-link to="/houseAppliance" active-class="active">家用电器</router-link>-->
-      <!--<router-link to="/beautyMakeup" active-class="active">个护美妆</router-link>-->
-      <!--<router-link to="/familyStyle" active-class="active">居家生活</router-link>-->
-      <!--<router-link to="/babyToy" active-class="active">母婴玩具</router-link>-->
-      <!--<router-link to="/dietHealthy" active-class="active">美食健康</router-link>-->
-      <Menu mode="horizontal">
+    <div class="mall-wrap clearfix">
+      <Dropdown class="pull-left all-category">
+        <a href="javascript:void(0)" style="position: static">
+          全部
+          <Icon type="arrow-down-b"></Icon>
+        </a>
+        <DropdownMenu slot="list">
+          <Dropdown placement="right-start">
+            <DropdownItem>
+              休闲食品
+              <Icon type="ios-arrow-right"></Icon>
+            </DropdownItem>
+            <DropdownMenu slot="list">
+              <DropdownItem>挂炉烤鸭</DropdownItem>
+              <DropdownItem>焖炉烤鸭</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+          <Dropdown placement="right-start">
+            <DropdownItem>
+              个护美妆
+              <Icon type="ios-arrow-right"></Icon>
+            </DropdownItem>
+            <DropdownMenu slot="list">
+              <DropdownItem>挂炉烤鸭</DropdownItem>
+              <DropdownItem>焖炉烤鸭</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+          <Dropdown placement="right-start">
+            <DropdownItem>
+              图书文学
+              <Icon type="ios-arrow-right"></Icon>
+            </DropdownItem>
+            <DropdownMenu slot="list">
+              <DropdownItem>挂炉烤鸭</DropdownItem>
+              <DropdownItem>焖炉烤鸭</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+          <Dropdown placement="right-start">
+            <DropdownItem>
+              家用器具
+              <Icon type="ios-arrow-right"></Icon>
+            </DropdownItem>
+            <DropdownMenu slot="list">
+              <DropdownItem>挂炉烤鸭</DropdownItem>
+              <DropdownItem>焖炉烤鸭</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+          <Dropdown placement="right-start">
+            <DropdownItem>
+              母婴用品
+              <Icon type="ios-arrow-right"></Icon>
+            </DropdownItem>
+            <DropdownMenu slot="list">
+              <DropdownItem>挂炉烤鸭</DropdownItem>
+              <DropdownItem>焖炉烤鸭</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+          <Dropdown placement="right-start">
+            <DropdownItem>
+              电脑数码
+              <Icon type="ios-arrow-right"></Icon>
+            </DropdownItem>
+            <DropdownMenu slot="list">
+              <DropdownItem>挂炉烤鸭</DropdownItem>
+              <DropdownItem>焖炉烤鸭</DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+        </DropdownMenu>
+      </Dropdown>
+      <Menu mode="horizontal"  class="pull-left">
           <MenuItem name="1">
             <router-link to="/homePage" active-class="active">
               首页
@@ -57,7 +119,7 @@
           </router-link>
         </MenuItem>
       </Menu>
-      <div class="shop-cart">
+      <div class="shop-cart pull-right">
         <a href="javascript:void(0)" style="padding-top: 10px">
           <img src="/static/images/nav-bar/icon-gouwuche.png" alt="">
           <span>购物车</span>

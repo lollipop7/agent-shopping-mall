@@ -1,17 +1,12 @@
 .home{
     .banner-box{
-        background-color: wihte;
-        height: 400px;
-        width: 100%;
-        position: relative;
-        .banner-img{
-            display: block;
-            width: 1366px;
-            height: 400px;
-            position: absolute;
-            left: 50%;
-            margin-left: -683px;
-        }
+      text-align: center;
+      height: 400px;
+      .ivu-carousel-dots li button {
+        width: 83px;
+        height: 6px;
+        background: $theme-color;
+      }
     }
     .content{
         width: 100%;
@@ -425,9 +420,9 @@
                         }
                     }
                 }
-                
+
             }
-            
+
         }
         .key-word{
             height: 70px;
