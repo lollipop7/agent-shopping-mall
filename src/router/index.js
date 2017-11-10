@@ -9,6 +9,7 @@ import HouseAppliancePage from '@/pages/house-appliance'
 import BabyToyPage from '@/pages/baby-toy'
 import DigitalMallPage from '@/pages/digital-mall'
 import DetailPage from '@/pages/good-detail'
+import LoginPage from '@/pages/login'
 
 Vue.use(Router) /* 使用路由 */
 Vue.use(VueResource)
@@ -56,6 +57,11 @@ export default new Router({
       path: '/detail',
       name: 'DetailPage',
       component: DetailPage
+    },
+    {
+      path: '/login',
+      name: 'LoginPage',
+      component: LoginPage
     },
     {
       path: '/',
