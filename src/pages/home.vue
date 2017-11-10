@@ -2,45 +2,9 @@
 <template lang="html">
     <div class="home">
       <div class="banner-box">
+            <img class="banner-img" src="/static/images/home/banner_1.png"/>
       </div>
       <div class="content">
-        <!--
-          <div class="container">
-              <div class="news"></div>
-          </div>
-          <div class="key-word">
-              <div class="contents">
-                  <div class="key-box">
-                      <img src="/static/images/home/home_1.jpg"/>
-                      <div class="word-box">
-                          <div class="up">正品保证</div>
-                          <div class="down">严控商品渠道 假一赔五</div>
-                      </div>
-                  </div>
-                  <div class="key-box">
-                      <img src="/static/images/home/home_1.jpg"/>
-                      <div class="word-box">
-                          <div class="up">正品保证</div>
-                          <div class="down">严控商品渠道 假一赔五</div>
-                      </div>
-                  </div>
-                  <div class="key-box">
-                      <img src="/static/images/home/home_1.jpg"/>
-                      <div class="word-box">
-                          <div class="up">正品保证</div>
-                          <div class="down">严控商品渠道 假一赔五</div>
-                      </div>
-                  </div>
-                  <div class="key-box">
-                      <img src="/static/images/home/home_1.jpg"/>
-                      <div class="word-box">
-                          <div class="up">正品保证</div>
-                          <div class="down">严控商品渠道 假一赔五</div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        -->
         <!-- 促销商品 -->
           <div class="container">
               <div class="recommend">
@@ -353,7 +317,6 @@
     </div>
 </template>
 <script>
-
 </script>
 
 <style>

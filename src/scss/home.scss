@@ -1,9 +1,17 @@
 .home{
     .banner-box{
-        background-color: #f94840;
+        background-color: wihte;
         height: 400px;
         width: 100%;
-        font-size: 19px;
+        position: relative;
+        .banner-img{
+            display: block;
+            width: 1366px;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            margin-left: -683px;
+        }
     }
     .content{
         width: 100%;
