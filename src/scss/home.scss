@@ -1,13 +1,13 @@
 .home{
     .banner-box{
-      text-align: center;
-      height: 400px;
-      .ivu-carousel-dots li button {
-        width: 83px;
-        height: 6px;
-        background: $theme-color;
+        text-align: center;
+        height: 400px;
+        .ivu-carousel-dots li button {
+          width: 83px;
+          height: 6px;
+          background: $theme-color;
+        }
       }
-    }
     .content{
         width: 100%;
         background: #f7f7f7;
@@ -209,7 +209,7 @@
                                 font-size: 14px;
                                 line-height: 22px;
                                 text-align: center;
-                                margin-top: 40px;
+                                margin-top: 16px;
                             }
                         }
                         .right{
@@ -420,9 +420,9 @@
                         }
                     }
                 }
-
+                
             }
-
+            
         }
         .key-word{
             height: 70px;
