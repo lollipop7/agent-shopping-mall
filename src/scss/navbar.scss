@@ -1,6 +1,7 @@
 //Created by lollipop 2017/11/7
 .navbar {
   border-bottom: 1px solid #000;
+  height: 61px;
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item,
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu {
     width: 100px;
@@ -39,6 +40,25 @@
       color: $theme-color;
       border-bottom: 2px solid $theme-color;
     }
+  }
+  .cart{
+    width: 176px;
+    height: 40px;
+    float: right;
+    line-height: 40px;
+    color: #666;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    position: relative;
+    top: -50px;
+    z-index: 1000;
+    font-size: 16px;
+  }
+  .cart:hover{
+    background: #ff5b63;
+    color: #ffffff;
   }
 }
 
