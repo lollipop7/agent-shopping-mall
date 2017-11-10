@@ -2,7 +2,14 @@
 <template lang="html">
     <div class="home">
       <div class="banner-box">
-            <img class="banner-img" src="/static/images/home/banner_1.png"/>
+        <Carousel v-model="value1" loop :arrow="arrow">
+          <CarouselItem>
+            <div class="demo-carousel"><img class="banner-img" src="/static/images/home/banner_1.png"/></div>
+          </CarouselItem>
+          <CarouselItem>
+            <div class="demo-carousel"><img class="banner-img" src="/static/images/home/banner_2.png"/></div>
+          </CarouselItem>
+        </Carousel>
       </div>
       <div class="content">
         <!-- 促销商品 -->
@@ -226,7 +233,7 @@
                   </div>
                   <div class="right-content">
                     <div class="ts-goods">
-                        <div class="up"> 
+                        <div class="up">
                             <img class="upleft" src="/static/images/home/book1.png"/>
                             <div class="upright">
                                 <img src="/static/images/home/hot.png"/>
@@ -273,7 +280,7 @@
                   </div>
                   <div class="right-content">
                     <div class="ts-goods">
-                        <div class="up"> 
+                        <div class="up">
                             <div class="small-goods">
                                 <div class="left">
                                     <div class="introduce">Midea电磁炉匀火触摸屏爆炒</div>
@@ -317,8 +324,15 @@
     </div>
 </template>
 <script>
+  export default {
+    data () {
+      return {
+        value1: 0,
+        arrow: 'never'
+      }
+    }
+  }
 </script>
-
 <style>
 </style>
 

@@ -98,7 +98,7 @@
   </div>
 </template>
 <script>
-  import CityData from '../../data/city.json'
+  import CityData from '../data/city.json'
   export default {
     data () {
       return {
