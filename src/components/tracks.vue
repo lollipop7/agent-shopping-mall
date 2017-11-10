@@ -26,20 +26,21 @@
 </template>
 <script>
   import tracklist from './track-list'
+  import data from '../../static/data/goods.json'
   export default {
     data () {
       return {
-        trackLists: []
+        trackLists: data.trackLists
       }
     },
     components: {
       tracklist
-    },
-    created () {
-      this.$http.get('api/goods').then((data) => {
-        this.trackLists = data.body.data.trackLists
-      })
     }
+//    created () {
+//      this.$http.get('api/goods').then((data) => {
+//        this.trackLists = data.body.data.trackLists
+//      })
+//    }
   }
 </script>
 <style>

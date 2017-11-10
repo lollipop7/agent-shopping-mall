@@ -31,23 +31,23 @@
   </div>
 </template>
 <script>
+  import data from '../../static/data/footer.json'
   export default {
     data () {
       return {
-        traits: [],   /* 定义一个空数组数据items */
-        fotCol: [],
-        copyRight: []
+        traits: data.traits,   /* 定义一个空数组数据items */
+        fotCol: data.fotCol,
+        copyRight: data.copyRight
       }
-    },
-    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
-      this.$http.get('/api/footdata').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
-//        console.log(data)
-        this.traits = data.body.data.traits
-        this.fotCol = data.body.data.fotCol
-        this.copyRight = data.body.data.copyRight
-        console.log(data.body.data)
-      })
     }
+//    created () {   /* 这个是vue的钩子函数，当new Vue()实例创建完毕后执行的函数 */
+//      this.$http.get('/api/footdata').then((data) => {   /* 调用vue的ajax来请求数据，promise语法，并用es6的箭头函数 */
+//        this.traits = data.body.data.traits
+//        this.fotCol = data.body.data.fotCol
+//        this.copyRight = data.body.data.copyRight
+//        console.log(data.body.data)
+//      })
+//    }
   }
 </script>
 
