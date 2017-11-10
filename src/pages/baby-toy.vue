@@ -1,5 +1,5 @@
-<!--Created by lollipop 2017/11/7-->
 <template>
+  <!--Created by lollipop 2017/11/7-->
   <div class="channelCon">
     <div class="mall-wrap">
       <div class="reachResults">
