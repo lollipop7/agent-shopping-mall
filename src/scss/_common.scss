@@ -58,6 +58,12 @@
   width: 980px;
   margin: 0 auto;
   position: relative;
+  .look-else{
+      color:#656666;
+      font-size: 18px;
+      text-align: center;
+      line-height: 200px;
+    }
 }
 
 input, textarea, select, button {

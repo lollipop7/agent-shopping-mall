@@ -4,10 +4,10 @@
       <div class="banner-box">
         <Carousel v-model="value1" loop :arrow="arrow">
           <CarouselItem>
-            <div class="demo-carousel"><router-link to="/detail"><img class="banner-img" src="/static/images/home/banner_1.png"/></router-link></div>
+            <div class="demo-carousel"><router-link to="/detailOne"><img class="banner-img" src="/static/images/home/banner_1.png"/></router-link></div>
           </CarouselItem>
           <CarouselItem>
-            <div class="demo-carousel"><router-link to="/detail"><img class="banner-img" src="/static/images/home/banner_2.png"/></router-link></div>
+            <div class="demo-carousel"><router-link to="/detailTwo"><img class="banner-img" src="/static/images/home/banner_2.png"/></router-link></div>
           </CarouselItem>
         </Carousel>
       </div>
@@ -23,48 +23,48 @@
               <div class="goods-box">
                 <div class="black-line"></div>
                 <div class="goods">
-                    <router-link to="/detail">
-                        <img src="/static/images/home/home_2.png"/>
+                    <router-link to="/detailThree">
+                        <img src="/static/images/detail/goods_9.png"/>
                         <div class="price-box">
-                            <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                            <div class="price">自在独行：贾平凹的独行世</div>
                             <div class="down">
-                                <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                                <div class="pone">￥37.10</div><div class="ptwo">39.00</div>
                                 <div class="buy">去抢购</div>
                             </div>
                         </div>
                     </router-link>
                 </div>
                 <div class="goods">
-                    <router-link to="/detail">
-                        <img src="/static/images/home/home_9.png"/>
+                    <router-link to="/detailFour">
+                        <img src="/static/images/detail/goods_10.png"/>
                         <div class="price-box">
-                            <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                            <div class="price">韩后植物能量粉底液bb霜</div>
                             <div class="down">
-                                <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                                <div class="pone">￥68.90</div><div class="ptwo">43.00</div>
                                 <div class="buy">去抢购</div>
                             </div>
                         </div>
                     </router-link>
                 </div>
                 <div class="goods">
-                    <router-link to="/detail">
-                        <img src="/static/images/home/home_10.png"/>
+                    <router-link to="/detailFive">
+                        <img src="/static/images/detail/goods_16.png"/>
                         <div class="price-box">
-                            <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                            <div class="price">贝因美婴儿奶瓶新生儿玻璃宽口</div>
                             <div class="down">
-                                <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                                <div class="pone">￥176.00</div><div class="ptwo">39.00</div>
                                 <div class="buy">去抢购</div>
                             </div>
                         </div>
                     </router-link>
                 </div>
                 <div class="goods">
-                    <router-link to="/detail">
-                        <img src="/static/images/home/home_11.png"/>
+                    <router-link to="/detailTwo">
+                        <img src="/static/images/detail/goods_8.png"/>
                         <div class="price-box">
-                            <div class="price">光明 莫斯利安 2果3蔬(绿果)常温酸奶135g*18盒钻石装</div>
+                            <div class="price">HUROM/惠人原汁机HUO16SG/FR</div>
                             <div class="down">
-                                <div class="pone">￥35.90</div><div class="ptwo">49.00</div>
+                                <div class="pone">￥103.90</div><div class="ptwo">249.00</div>
                                 <div class="buy">去抢购</div>
                             </div>
                         </div>
