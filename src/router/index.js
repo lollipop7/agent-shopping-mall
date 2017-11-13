@@ -10,12 +10,6 @@ import BabyToyPage from '@/pages/baby-toy'
 import DigitalMallPage from '@/pages/digital-mall'
 import DetailPage from '@/pages/good-detail'
 import LoginPage from '@/pages/login'
-import detailOnePage from '@/pages/detail-one'
-import detailTwoPage from '@/pages/detail-two'
-import detailThreePage from '@/pages/detail-three'
-import detailFourPage from '@/pages/detail-four'
-import detailFivePage from '@/pages/detail-five'
-import detailSixPage from '@/pages/detail-six'
 
 Vue.use(Router) /* 使用路由 */
 Vue.use(VueResource)
@@ -53,34 +47,9 @@ export default new Router({
       component: DigitalMallPage
     },
     {
-      path: '/detail/:id',
-      component: DetailPage,
-      children: [
-        {
-          path: '/detailOne',
-          component: detailOnePage
-        },
-        {
-          path: '/detailTwo',
-          component: detailTwoPage
-        },
-        {
-          path: '/detailThree',
-          component: detailThreePage
-        },
-        {
-          path: '/detailFour',
-          component: detailFourPage
-        },
-        {
-          path: '/detailFive',
-          component: detailFivePage
-        },
-        {
-          path: '/detailSix',
-          component: detailSixPage
-        }
-      ]
+      path: '/detail/:aid',
+      name: 'DetailPage',
+      component: DetailPage
     },
     {
       path: '/login',

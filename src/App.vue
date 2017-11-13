@@ -35,10 +35,15 @@
       Navbar,
       CommonFooter
     },
+    mounted () {
+      const {name} = this.$route
+      if (name === 'LoginPage') {
+        this.show = false
+      }
+    },
     watch: {
       $route (to) {
         let path = to.path.substring(1)
-        console.log(path)
         if (path === 'login') {
           this.show = false
         } else {
