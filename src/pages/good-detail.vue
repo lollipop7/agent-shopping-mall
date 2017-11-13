@@ -3,7 +3,7 @@
   <div class="detail mall-wrap">
     <div v-show="isShow">
           <div class="container">
-            <p class="site-cont"><b style="font-size: 18px">图书文学</b>>文学>自在独行：贾平凹的独行世界（陈坤推荐）</p>
+            <p class="site-cont"><b style="font-size: 18px">{{detailData.classfiy}}</b>>{{detailData.name}}</p>
             <div class="productDetails">
               <img :src="detailData.imgUrl" width="440" height="440"/>
               <div class="productDetailInfo">
@@ -51,12 +51,12 @@
               <div class="detailLeftTop">
                 <p class="concern">&nbsp;&nbsp;&nbsp;相关分类</p>
                 <ul>
-                  <li><span>中国文学</span><span>中国文学</span></li>
-                  <li><span>中国文学</span><span>中国文学</span></li>
-                  <li><span>中国文学</span><span>中国文学</span></li>
-                  <li><span>中国文学</span><span>中国文学</span></li>
-                  <li><span>中国文学</span><span>中国文学</span></li>
-                  <li><span>中国文学</span><span>中国文学</span></li>
+                  <li><span>图书文学</span><span>休闲食品</span></li>
+                  <li><span>个护美妆</span><span>家用器具</span></li>
+                  <li><span>母婴用品</span><span>电脑数码</span></li>
+                  <li><span>新鲜水果</span><span>海鲜水产</span></li>
+                  <li><span>电脑配件</span><span>办公设备</span></li>
+                  <li><span>洗护用品</span><span>尿裤湿巾</span></li>
                 </ul>
               </div>
               <div class="detailLeftBottom">
@@ -81,7 +81,7 @@
             <div class="detailRight">
               <div class="detailRightTitle">
                 <p class="productDetailTitle">商品详情</p>
-                <ul>
+                <ul v-show="false">
                   <li>出版社：长江文艺出版社</li>
                   <li>ISBD：12345678</li>
                   <li>版次：1</li>
@@ -92,7 +92,11 @@
                   <li>用纸：胶版纸</li>
                 </ul>
               </div>
-              <img :src="detailData.imgDetailUrl" width="100%"/>
+              <div style="overflow: hidden;width: 100%">
+                <img :src="detailData.imgDetailUrl" width="100%"/><br/>
+                <img :src="detailData.imgDetailUrll" width="100%"/>
+              </div>
+
             </div>
           </div>
     </div>
@@ -123,7 +127,7 @@
     },
     mounted () {
       const {aid} = this.$route.params
-      if (aid < 4 && aid >= 0) {
+      if (aid < 3 && aid >= 0) {
         this.$http.get(`/static/data/detail/${aid}.json`).then((res) => {
           this.detailData = res.body
         })

@@ -45,7 +45,7 @@
           <Page :total="100"></Page>
         </div>
       </div>
-      <mytracks></mytracks>
+      <!--<mytracks></mytracks>-->
     </div>
   </div>
 </template>

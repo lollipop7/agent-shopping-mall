@@ -5,34 +5,30 @@
           <SearchBox v-show="show"></SearchBox>
           <navbar v-show="show"></navbar>
           <router-view></router-view>
+          <mytracks v-show="show"></mytracks>
           <common-footer v-show="show"></common-footer>
       </div>
   </div>
-  <!--#app-->
-    <!--.wrap-->
-      <!--common-header  &lt;!&ndash;  展示引入的header组件 &ndash;&gt;-->
-      <!--search-box-->
-      <!--navbar-->
-      <!--router-view-->
-      <!--common-footer-->
 </template>
 
 <script>
   import CommonHeader from './components/header'   /* 本页面中用到了HomeHeader组件，所以就需要在这里引入一下 */
   import SearchBox from './components/search-box'
   import Navbar from './components/navbar'
+  import mytracks from './components/tracks'
   import CommonFooter from './components/footer'
   export default {
     name: 'app',
     data () {
       return {
-        show: true   /* 定义一个空数组数据items */
+        show: true
       }
     },
     components: {
       CommonHeader,
       SearchBox,
       Navbar,
+      mytracks,
       CommonFooter
     },
     mounted () {
