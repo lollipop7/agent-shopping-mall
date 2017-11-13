@@ -26,78 +26,65 @@ export default new Router({
   routes: [ /* 进行路由配置，规定“/”引入到Hello组件 */
     {
       path: '/homePage',
-      name: 'HomePage',
       component: HomePage
     },
     {
       path: '/snackFood',
-      name: 'SnackFoodPage',
       component: SnackFoodPage
     },
     {
       path: '/beautyMakeup',
-      name: 'BeautyMakeupPage',
       component: BeautyMakeupPage
     },
     {
       path: '/literatureBook',
-      name: 'LiteratureBookPage',
       component: LiteratureBookPage
     },
     {
       path: '/houseAppliance',
-      name: 'HouseAppliancePage',
       component: HouseAppliancePage
     },
     {
       path: '/babyToy',
-      name: 'BabyToyPage',
       component: BabyToyPage
     },
     {
       path: '/digitalMall',
-      name: 'DigitalMallPage',
       component: DigitalMallPage
     },
     {
-      path: '/detail',
-      name: 'DetailPage',
-      component: DetailPage
+      path: '/detail/:id',
+      component: DetailPage,
+      children: [
+        {
+          path: '/detailOne',
+          component: detailOnePage
+        },
+        {
+          path: '/detailTwo',
+          component: detailTwoPage
+        },
+        {
+          path: '/detailThree',
+          component: detailThreePage
+        },
+        {
+          path: '/detailFour',
+          component: detailFourPage
+        },
+        {
+          path: '/detailFive',
+          component: detailFivePage
+        },
+        {
+          path: '/detailSix',
+          component: detailSixPage
+        }
+      ]
     },
     {
       path: '/login',
-      name: 'LoginPage',
       component: LoginPage
-    },
-    {
-      path: '/detailOne',
-      name: 'detailOne',
-      component: detailOnePage
-    },
-    {
-      path: '/detailTwo',
-      name: 'detailTwo',
-      component: detailTwoPage
-    },
-    {
-      path: '/detailThree',
-      name: 'detailThree',
-      component: detailThreePage
-    },
-    {
-      path: '/detailFour',
-      name: 'detailFour',
-      component: detailFourPage
-    },
-    {
-      path: '/detailFive',
-      name: 'detailFive',
-      component: detailFivePage
-    },
-    {
-      path: '/detailSix',
-      name: 'detailSix',
-      component: detailSixPage
     },
     {
       path: '/',

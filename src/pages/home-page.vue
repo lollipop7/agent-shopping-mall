@@ -2,7 +2,7 @@
 <template lang="html">
     <div class="home">
       <div class="banner-box">
-        <Carousel v-model="value1" loop :arrow="arrow">
+        <Carousel v-model="value1" loop autoplay :arrow="arrow">
           <CarouselItem>
             <div class="demo-carousel"><router-link to="/detailOne"><img class="banner-img" src="/static/images/home/banner_1.png"/></router-link></div>
           </CarouselItem>
