@@ -50,7 +50,7 @@
                     <router-link to="/detailFive">
                         <img src="/static/images/detail/goods_16.png"/>
                         <div class="price-box">
-                            <div class="price">贝因美婴儿奶瓶新生儿玻璃宽口</div>
+                            <div class="price">贝因美婴儿奶瓶</div>
                             <div class="down">
                                 <div class="pone">￥176.00</div><div class="ptwo">39.00</div>
                                 <div class="buy">去抢购</div>
@@ -62,9 +62,9 @@
                     <router-link to="/detailTwo">
                         <img src="/static/images/detail/goods_8.png"/>
                         <div class="price-box">
-                            <div class="price">HUROM/惠人原汁机HUO16SG/FR</div>
+                            <div class="price">惠人原汁机HUO16SG</div>
                             <div class="down">
-                                <div class="pone">￥103.90</div><div class="ptwo">249.00</div>
+                                <div class="pone">￥2598</div><div class="ptwo">5900</div>
                                 <div class="buy">去抢购</div>
                             </div>
                         </div>
