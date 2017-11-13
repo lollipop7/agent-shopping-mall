@@ -60,7 +60,7 @@ export default new Router({
       component: DigitalMallPage
     },
     {
-      path: '/detail',
+      path: '/detail/:aid',
       name: 'DetailPage',
       component: DetailPage
     },
