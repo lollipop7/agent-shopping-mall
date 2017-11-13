@@ -70,8 +70,10 @@
       { "cartP": "558.00 ","oriP":"598.00 ","like": "211", "title": "Kindle/亚马逊 新款电子书阅读器(入门版) 运行内存512MB", "ads": "", "img": "https://img.guanaitong.com/product/4/148187825336054500.jpg" }
     ],
   "classificationA": {
-    "babyToySorts": ["全部","贝亲","费雪","托马斯和他的朋友们","澳贝","PawinPaw宝英宝","芭比","Ludi","Kaloo","B DUCK","努比"],
     "dietHealthySorts": ["全部","易果","汤臣倍健","嘀嗒猫","麦隆咖啡","巧克巧蔻","茱蒂丝","臻味","湖中之王","添乐卡通王","优特比"],
+    "beautyMakeupSorts": ["全部","珀莱雅"],
+    "literatureBookSorts": ["全部","儿童","文学","杂志"],
+    "babyToySorts": ["全部","贝亲","费雪","托马斯和他的朋友们","澳贝","PawinPaw宝英宝","芭比","Ludi","Kaloo","B DUCK","努比"],
     "houseAppSorts": ["全部","美的","松下","苏泊尔","飞利浦","飞科","康佳","九阳","小狗","汉美驰","戴森"],
     "digitalMallSorts":["全部","华为","乐心","拉卡拉","小天才","Kindle","坚果"]
   },

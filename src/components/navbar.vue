@@ -13,9 +13,10 @@
               休闲食品
               <Icon type="ios-arrow-right"></Icon>
             </DropdownItem>
-            <DropdownMenu slot="list">
-              <DropdownItem>挂炉烤鸭</DropdownItem>
-              <DropdownItem>焖炉烤鸭</DropdownItem>
+            <DropdownMenu slot="list" >
+              <DropdownItem v-for="item in dietHealthySorts" class="inline-block">
+                <router-link to="/snackFood" tag="p" key="item">{{item}}</router-link>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <Dropdown placement="right-start">
@@ -23,9 +24,10 @@
               个护美妆
               <Icon type="ios-arrow-right"></Icon>
             </DropdownItem>
-            <DropdownMenu slot="list">
-              <DropdownItem>挂炉烤鸭</DropdownItem>
-              <DropdownItem>焖炉烤鸭</DropdownItem>
+            <DropdownMenu slot="list" >
+              <DropdownItem v-for="item in beautyMakeupSorts" class="inline-block">
+                <router-link to="/beautyMakeup" tag="p" key="item">{{item}}</router-link>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <Dropdown placement="right-start">
@@ -33,9 +35,10 @@
               图书文学
               <Icon type="ios-arrow-right"></Icon>
             </DropdownItem>
-            <DropdownMenu slot="list">
-              <DropdownItem>挂炉烤鸭</DropdownItem>
-              <DropdownItem>焖炉烤鸭</DropdownItem>
+            <DropdownMenu slot="list" >
+              <DropdownItem v-for="item in literatureBookSorts" class="inline-block">
+                <router-link to="/literatureBook" tag="p" key="item">{{item}}</router-link>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <Dropdown placement="right-start">
@@ -43,9 +46,10 @@
               家用器具
               <Icon type="ios-arrow-right"></Icon>
             </DropdownItem>
-            <DropdownMenu slot="list">
-              <DropdownItem>挂炉烤鸭</DropdownItem>
-              <DropdownItem>焖炉烤鸭</DropdownItem>
+            <DropdownMenu slot="list" >
+              <DropdownItem v-for="item in houseAppSorts" class="inline-block">
+                <router-link to="/houseAppliance" tag="p" key="item">{{item}}</router-link>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <Dropdown placement="right-start">
@@ -53,9 +57,10 @@
               母婴用品
               <Icon type="ios-arrow-right"></Icon>
             </DropdownItem>
-            <DropdownMenu slot="list">
-              <DropdownItem>挂炉烤鸭</DropdownItem>
-              <DropdownItem>焖炉烤鸭</DropdownItem>
+            <DropdownMenu slot="list" >
+              <DropdownItem v-for="item in babyToySorts" class="inline-block">
+                <router-link to="/babyToy" tag="p" key="item">{{item}}</router-link>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <Dropdown placement="right-start">
@@ -63,9 +68,10 @@
               电脑数码
               <Icon type="ios-arrow-right"></Icon>
             </DropdownItem>
-            <DropdownMenu slot="list">
-              <DropdownItem>挂炉烤鸭</DropdownItem>
-              <DropdownItem>焖炉烤鸭</DropdownItem>
+            <DropdownMenu slot="list" >
+              <DropdownItem v-for="item in digitalMallSorts" class="inline-block">
+                <router-link to="/digitalMall" tag="p" key="item">{{item}}</router-link>
+              </DropdownItem>
             </DropdownMenu>
           </Dropdown>
         </DropdownMenu>
@@ -120,10 +126,17 @@
   </div>
 </template>
 <script>
+  import data from '../../static/data/goods.json'
   export default {
     data () {
       return {
-        active: false
+        active: false,
+        dietHealthySorts: data.classificationA.dietHealthySorts,
+        beautyMakeupSorts: data.classificationA.beautyMakeupSorts,
+        literatureBookSorts: data.classificationA.literatureBookSorts,
+        houseAppSorts: data.classificationA.houseAppSorts,
+        babyToySorts: data.classificationA.babyToySorts,
+        digitalMallSorts: data.classificationA.digitalMallSorts
       }
     }
   }

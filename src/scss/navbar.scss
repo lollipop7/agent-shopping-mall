@@ -5,6 +5,15 @@
     width: 100px;
     height: 40px;
     line-height: 40px;
+    .ivu-select-dropdown {
+      .ivu-dropdown-menu {
+        .ivu-dropdown {
+          .ivu-select-dropdown {
+            width: 600px;
+          }
+        }
+      }
+    }
   }
   /*菜单*/
   .ivu-menu-horizontal {

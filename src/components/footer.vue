@@ -19,7 +19,7 @@
         <div class="fot-col pull-left" v-for="(item, key) in fotCol">
           <h3>{{item.title}}</h3>
           <div class="txt-row" v-for="(txt, index) in item.txt">
-            <p>{{txt}}</p>
+            <router-link tag="p" to="/fyq">{{txt}}</router-link>
           </div>
           <div class="ver-line" v-if="key != fotCol.length-1"></div>
         </div>

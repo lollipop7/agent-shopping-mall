@@ -7,14 +7,14 @@
           当前“母婴玩具”共 202 件商品
         </p>
       </div>
-       <!--<div class="classfication clearfix">-->
-         <!--<div class="classificationTit pull-left">-->
-           <!--<p>品&nbsp;&nbsp;&nbsp;&nbsp;牌：</p>-->
-         <!--</div>-->
-         <!--<div class="classificationA pull-right">-->
-           <!--<classification  v-for="(item,index) in classificationA" :key="item.index" :category="item"></classification>-->
-         <!--</div>-->
-       <!--</div>-->
+      <!--<div class="classfication clearfix">-->
+        <!--<div class="classificationTit pull-left">-->
+          <!--<p>品&nbsp;&nbsp;&nbsp;&nbsp;牌：</p>-->
+        <!--</div>-->
+        <!--<div class="classificationA pull-right">-->
+          <!--<classification  v-for="(item,index) in classificationA" :key="item.index" :category="item"></classification>-->
+        <!--</div>-->
+      <!--</div>-->
       <div class="content clearfix">
         <div class="sorting">
           <div class="sorting-cate pull-left">
@@ -58,6 +58,7 @@
     data () {
       return {
         literatureBook: data.literatureBook,   /* 定义一个空数组数据items */
+        classificationA: data.classificationA.houseAppSorts,
         isActive: true,
         isSortingSp2: true,
         isActive3: false,

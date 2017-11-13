@@ -33,6 +33,7 @@
           <common-commend
             v-for="(babyToy,index) in houseApp"
             :key="babyToy.index"
+            :index="babyToy.index"
             :cartP="babyToy.cartP"
             :oriP="babyToy.oriP"
             :like="babyToy.like"

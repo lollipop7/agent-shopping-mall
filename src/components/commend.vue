@@ -1,7 +1,7 @@
 <!--Created by lollipop 2017/11/7-->
 <template lang="html">
   <li class="shoppingCar" style="border-top-color: rgb(255, 255, 255);">
-    <router-link to="/detail">  <!--  这个是用来跳转页面的，可以理解为a标签 -->
+    <router-link :to="{name:'DetailPage',params:{aid: 0}}">  <!--  这个是用来跳转页面的，可以理解为a标签 -->
       <div class="shoppingCarTop" style="cursor:pointer">
         <img :src="img" height="218" width="218" title="img">
         <h3 title="title">{{title}}</h3>
@@ -17,7 +17,7 @@
 
 <script>
   export default {
-    props: ['price', 'title', 'img', 'ads', 'cartP', 'oriP', 'like']   /*  props是子组件获取父组件数据用的 */
+    props: ['price', 'title', 'img', 'ads', 'cartP', 'oriP', 'like', 'index']   /*  props是子组件获取父组件数据用的 */
   }
 </script>
 
