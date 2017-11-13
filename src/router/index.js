@@ -10,12 +10,6 @@ import BabyToyPage from '@/pages/baby-toy'
 import DigitalMallPage from '@/pages/digital-mall'
 import DetailPage from '@/pages/good-detail'
 import LoginPage from '@/pages/login'
-import detailOnePage from '@/pages/detail-one'
-import detailTwoPage from '@/pages/detail-two'
-import detailThreePage from '@/pages/detail-three'
-import detailFourPage from '@/pages/detail-four'
-import detailFivePage from '@/pages/detail-five'
-import detailSixPage from '@/pages/detail-six'
 
 Vue.use(Router) /* 使用路由 */
 Vue.use(VueResource)
@@ -26,78 +20,40 @@ export default new Router({
   routes: [ /* 进行路由配置，规定“/”引入到Hello组件 */
     {
       path: '/homePage',
-      name: 'HomePage',
       component: HomePage
     },
     {
       path: '/snackFood',
-      name: 'SnackFoodPage',
       component: SnackFoodPage
     },
     {
       path: '/beautyMakeup',
-      name: 'BeautyMakeupPage',
       component: BeautyMakeupPage
     },
     {
       path: '/literatureBook',
-      name: 'LiteratureBookPage',
       component: LiteratureBookPage
     },
     {
       path: '/houseAppliance',
-      name: 'HouseAppliancePage',
       component: HouseAppliancePage
     },
     {
       path: '/babyToy',
-      name: 'BabyToyPage',
       component: BabyToyPage
     },
     {
       path: '/digitalMall',
-      name: 'DigitalMallPage',
       component: DigitalMallPage
     },
     {
-      path: '/detail',
+      path: '/detail/:aid',
       name: 'DetailPage',
       component: DetailPage
     },
     {
       path: '/login',
-      name: 'LoginPage',
       component: LoginPage
-    },
-    {
-      path: '/detailOne',
-      name: 'detailOne',
-      component: detailOnePage
-    },
-    {
-      path: '/detailTwo',
-      name: 'detailTwo',
-      component: detailTwoPage
-    },
-    {
-      path: '/detailThree',
-      name: 'detailThree',
-      component: detailThreePage
-    },
-    {
-      path: '/detailFour',
-      name: 'detailFour',
-      component: detailFourPage
-    },
-    {
-      path: '/detailFive',
-      name: 'detailFive',
-      component: detailFivePage
-    },
-    {
-      path: '/detailSix',
-      name: 'detailSix',
-      component: detailSixPage
     },
     {
       path: '/',
