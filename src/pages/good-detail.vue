@@ -40,8 +40,8 @@
                   </div>
                 </div>
                 <div class="shoppingBtn">
-                  <a href="javascript:;" class="buyBtn">立即购买</a>
-                  <a href="javascript:;" class="carBtn">加入购物车</a>
+                  <router-link to="/login"><a href="javascript:;" class="buyBtn">立即购买</a></router-link>
+                  <router-link to="/login"><a href="javascript:;" class="carBtn">加入购物车</a></router-link>
                 </div>
               </div>
             </div>
