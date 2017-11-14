@@ -1,5 +1,6 @@
 //Created by lollipop 2017/11/13
-.fyq-wrapper {
+.faq-wrapper {
+  margin-bottom: 40px;
   .ivu-breadcrumb {
     padding: 10px 0;
     border-bottom: 1px solid #eee;
@@ -14,9 +15,9 @@
   }
   .wrapper-container {
     margin-top: 20px;
-    .fyq-navigation {
-      height: 626px;
-      .fyq-category-header {
+    .faq-navigation {
+      min-height: 626px;
+      .faq-category-header {
         height: 40px;
         line-height: 40px;
         padding-left: 56px;
@@ -24,35 +25,21 @@
         font-size: 1.6rem;
         color: #fff;
       }
-      .fyq-category-collapse {
-        .fyq-item {
-          height: 40px;
-          line-height: 40px;
-          padding-left: 56px;
-          position: relative;
-          cursor: pointer;
-          font-size: 1.4rem;
-          color: #333;
-          border-top: 1px solid #eee;
-          border-bottom: 1px solid #eee;
-          background-color: #f7f7f7;
-          .ivu-icon {
-            margin-left: 40px;
-            color: #666;
-            font-size: 1.2rem;
-          }
-        }
-        ul {
-          li {
-            height: 40px;
-            line-height: 40px;
-            padding-left: 56px;
-            cursor: pointer;
-          }
+      .faq-category-collapse {
+        .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+          color: #14b45e;
+          border-right: 2px solid #14b45e;
         }
       }
+      .ivu-menu-vertical .ivu-menu-submenu-title {
+        background-color: #f7f7f7;
+      }
+      .ivu-menu-vertical .ivu-menu-item,
+      .ivu-menu-vertical .ivu-menu-submenu-title {
+        padding: 10px 24px;
+      }
     }
-    .fyq-content {
+    .faq-content {
       min-height: 626px;
       .ivu-breadcrumb {
         padding-left: 20px;
@@ -63,7 +50,8 @@
           font-weight: 400;
         }
       }
-      .fyq-article {
+      .faq-article {
+        padding-top: 20px;
         padding-left: 20px;
         .anchor {
           padding-bottom: 15px;
