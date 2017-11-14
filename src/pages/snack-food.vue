@@ -15,7 +15,7 @@
         </div>
         <div class="beauty-shop">
             <div class="shoppingCar" v-for="(item , index) in msg">
-                <router-link :to="{name:'DetailPage',params:{aid:'0'+index}}" tag="div" class="shoppingCarTop">
+                <router-link :to="{name:'DetailPage',params:{aid:'0'+index+''}}" tag="div" class="shoppingCarTop">
                     <img :src="item.imgUrl" title="51金融圈商品" width="218" height="218"/>
                     <h3>&nbsp;&nbsp;{{item.name}}</h3>
                     <p style="color: #ff5b64"></p>
