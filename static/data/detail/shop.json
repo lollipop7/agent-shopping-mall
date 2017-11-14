@@ -1,0 +1,40 @@
+[
+  {
+    "imgUrl":"/static/images/detail/01.jpg",
+    "imgDetailUrl":"/static/images/detail/02.jpg",
+    "name":"珀莱雅清透保湿4件套",
+    "cprice":"342.0",
+    "price":"199.0",
+    "classfiy":"个护美妆",
+    "id":"0"
+  },
+  {
+    "imgUrl":"/static/images/detail/11.jpg",
+    "imgDetailUrl":"/static/images/detail/12.jpg",
+    "name":"珀莱雅愉悦舒活弹力倍润套盒 ",
+    "cprice":"139.0",
+    "price":"56",
+    "classfiy":"个护美妆",
+    "id":"1"
+  },
+  {
+    "imgUrl":"/static/images/detail/21.jpg",
+    "imgDetailUrl":"/static/images/detail/22.jpg",
+    "imgDetailUrll":"/static/images/detail/23.jpg",
+    "name":"珀莱雅海洋净颜舒缓卸妆水优惠装 ",
+    "cprice":"88.0",
+    "price":"69",
+    "classfiy":"个护美妆",
+    "id":"2"
+  },
+  {
+    "imgUrl":"/static/images/detail/31.jpg",
+    "imgDetailUrl":"/static/images/detail/32.jpg",
+    "imgDetailUrll":"/static/images/detail/33.jpg",
+    "name":"珀莱雅透皙白嫩肤套装 ",
+    "cprice":"444.0",
+    "price":"209",
+    "classfiy":"个护美妆",
+    "id":"3"
+  }
+]

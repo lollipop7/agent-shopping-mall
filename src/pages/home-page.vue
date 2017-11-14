@@ -4,10 +4,10 @@
       <div class="banner-box">
         <Carousel v-model="value1" loop autoplay :arrow="arrow">
           <CarouselItem>
-            <div class="demo-carousel"><router-link to="/detailOne"><img class="banner-img" src="/static/images/home/banner_1.png"/></router-link></div>
+            <div class="demo-carousel"><router-link to="/detail/1004"><img class="banner-img" src="/static/images/home/banner_1.png"/></router-link></div>
           </CarouselItem>
           <CarouselItem>
-            <div class="demo-carousel"><router-link to="/detailTwo"><img class="banner-img" src="/static/images/home/banner_2.png"/></router-link></div>
+            <div class="demo-carousel"><router-link to="/detail/1005"><img class="banner-img" src="/static/images/home/banner_2.png"/></router-link></div>
           </CarouselItem>
         </Carousel>
       </div>
@@ -23,7 +23,7 @@
               <div class="goods-box">
                 <div class="black-line"></div>
                 <div class="goods">
-                    <router-link to="/detailThree">
+                    <router-link to="/detail/1006">
                         <img src="/static/images/detail/goods_9.png"/>
                         <div class="price-box">
                             <div class="price">自在独行：贾平凹的独行世</div>
@@ -35,7 +35,7 @@
                     </router-link>
                 </div>
                 <div class="goods">
-                    <router-link to="/detailFour">
+                    <router-link to="/detail/1007">
                         <img src="/static/images/detail/goods_10.png"/>
                         <div class="price-box">
                             <div class="price">韩后植物能量粉底液bb霜</div>
@@ -47,19 +47,19 @@
                     </router-link>
                 </div>
                 <div class="goods">
-                    <router-link to="/detailFive">
+                    <router-link to="/detail/1008">
                         <img src="/static/images/detail/goods_16.png"/>
                         <div class="price-box">
                             <div class="price">贝因美婴儿奶瓶</div>
                             <div class="down">
-                                <div class="pone">￥176.00</div><div class="ptwo">39.00</div>
+                                <div class="pone">￥176.00</div><div class="ptwo">390.00</div>
                                 <div class="buy">去抢购</div>
                             </div>
                         </div>
                     </router-link>
                 </div>
                 <div class="goods">
-                    <router-link to="/detailTwo">
+                    <router-link to="/detail/1005">
                         <img src="/static/images/detail/goods_8.png"/>
                         <div class="price-box">
                             <div class="price">惠人原汁机HUO16SG</div>
@@ -83,7 +83,7 @@
               <div class="goods-box">
                 <div class="black-line"></div>
                   <div class="left-img">
-                    <router-link to="/detail">
+                    <router-link to="/detail/10000">
                         <img src="/static/images/home/home_3.png" class="backimg">
                         <div class="inside-box">
                             <div class="up">不待巅峰 提前放价</div>
@@ -94,7 +94,7 @@
                   </div>
                   <div class="right-content">
                     <div class="small-goods">
-                        <router-link to="/detail">
+                        <router-link to="/detail/10000">
                             <div class="left">
                                 <div class="img">个体美妆</div>
                                 <div class="up">人生没有什么放不下</div>
@@ -107,7 +107,7 @@
                         </router-link>
                     </div>
                     <div class="small-goods">
-                        <router-link to="/detail">
+                        <router-link to="/detail/10000">
                             <div class="left">
                                 <div class="img">个体美妆</div>
                                 <div class="up">大卫科波菲尔</div>
@@ -120,7 +120,7 @@
                         </router-link>
                     </div>
                     <div class="small-goods">
-                        <router-link to="/detail">
+                        <router-link to="/detail/10000">
                             <div class="left">
                                 <div class="img">个体美妆</div>
                                 <div class="up">围城</div>
@@ -133,7 +133,7 @@
                         </router-link>
                     </div>
                     <div class="small-goods">
-                        <router-link to="/detail">
+                        <router-link to="/detail/10000">
                             <div class="left">
                                 <div class="img">个体美妆</div>
                                 <div class="up">挪威的森林</div>
@@ -159,7 +159,7 @@
               <div class="goods-box">
                 <div class="black-line"></div>
                   <div class="left-img">
-                  <router-link to="/detail">
+                  <router-link to="/detail/10000">
                         <img src="/static/images/home/home_5.png" class="backimg">
                       <div class="inside-box2">
                         <div class="up">美妆个护</div>
@@ -171,7 +171,7 @@
                   </div>
                   <div class="right-content">
                     <div class="mz-goods">
-                        <router-link to="/detail">
+                        <router-link to="/detail/10000">
                         <div class="up">
                             <img class="imgbox" src="/static/images/home/home_16.png"/>
                         </div>
@@ -183,7 +183,7 @@
                         </router-link>
                     </div>
                     <div class="mz-goods">
-                    <router-link to="/detail">
+                    <router-link to="/detail/10000">
                         <div class="up">
                             <img class="imgbox" src="/static/images/home/home_17.png"/>
                         </div>
@@ -195,7 +195,7 @@
                         </router-link>
                     </div>
                     <div class="mz-goods">
-                    <router-link to="/detail">
+                    <router-link to="/detail/10000">
                         <div class="up">
                             <img class="imgbox" src="/static/images/home/home_18.png"/>
                         </div>
@@ -207,7 +207,7 @@
                         </router-link>
                     </div>
                     <div class="mz-goods">
-                    <router-link to="/detail">
+                    <router-link to="/detail/10000">
                         <div class="up">
                             <img class="imgbox" src="/static/images/home/home_19.png"/>
                         </div>
@@ -219,7 +219,7 @@
                         </router-link>
                     </div>
                     <div class="mz-goods">
-                    <router-link to="/detail">
+                    <router-link to="/detail/10000">
                         <div class="up">
                             <img class="imgbox" src="/static/images/home/home_20.png"/>
                         </div>
@@ -231,7 +231,7 @@
                     </router-link>
                     </div>
                     <div class="mz-goods">
-                    <router-link to="/detail">
+                    <router-link to="/detail/10000">
                         <div class="up">
                             <img class="imgbox" src="/static/images/home/home_21.png"/>
                         </div>
@@ -256,7 +256,7 @@
               <div class="goods-box">
                 <div class="black-line"></div>
                   <div class="left-img">
-                  <router-link to="/detail">
+                  <router-link to="/detail/10000">
                     <img src="/static/images/home/home_3.png" class="backimg">
                       <div class="inside-box">
                         <div class="up">新书速递 低价尝鲜</div>
@@ -268,7 +268,7 @@
                   <div class="right-content">
                     <div class="ts-goods">
                         <div class="up">
-                        <router-link to="/detail">
+                        <router-link to="/detail/10000">
                             <img class="upleft" src="/static/images/home/book1.png"/>
                             <div class="upright">
                                 <img src="/static/images/home/hot.png"/>
@@ -280,19 +280,19 @@
                         </div>
                         <div class="down">
                             <div class="litle">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <img class="bookpic" src="/static/images/home/book3.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                                 </router-link>
                             </div>
                             <div class="litle">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <img class="bookpic" src="/static/images/home/book4.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </router-link>
                             </div>
                             <div class="litle">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <img class="bookpic" src="/static/images/home/book2.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </router-link>
@@ -313,7 +313,7 @@
               <div class="goods-box">
                 <div class="black-line"></div>
                   <div class="left-img">
-                  <router-link to="/detail">
+                  <router-link to="/detail/10000">
                     <img src="/static/images/home/home_7.png" class="backimg">
                       <div class="inside-box3">
                         <div class="up">家具器具</div>
@@ -326,7 +326,7 @@
                     <div class="ts-goods">
                         <div class="up">
                             <div class="small-goods">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <div class="left">
                                     <div class="introduce">Midea电磁炉匀火触摸屏爆炒</div>
                                     <div class="price">￥289</div>
@@ -338,7 +338,7 @@
                             </router-link>
                             </div>
                             <div class="small-goods">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <div class="left">
                                     <div class="introduce">Midea电磁炉匀火触摸屏爆炒</div>
                                     <div class="price">￥289</div>
@@ -352,19 +352,19 @@
                         </div>
                         <div class="down">
                             <div class="litle">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <img class="bookpic" src="/static/images/home/home_8.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </router-link>
                             </div>
                             <div class="litle">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <img class="bookpic" src="/static/images/home/home_6.png"/>
                                 <div class="price">￥26.80<span>7.8折</span></div>
                             </router-link>
                             </div>
                             <div class="litle">
-                            <router-link to="/detail">
+                            <router-link to="/detail/10000">
                                 <img class="bookpic" src="/static/images/home/home_23.png"/>
                                 <div class="price">￥26.80<span>6.8折</span></div>
                             </router-link>
