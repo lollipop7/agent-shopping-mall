@@ -120,16 +120,26 @@
     data () {
       return {
         CityData,
-        detailData: {},
+        detailData: [{}],
         isShow: true,
         num: 1
       }
     },
     mounted () {
-      const {aid} = this.$route.params
+      let {aid} = this.$route.params
       if (aid < 3 && aid >= 0) {
-        this.$http.get(`/static/data/detail/${aid}.json`).then((res) => {
-          this.detailData = res.body
+        this.$http.get(`/static/data/detail/shop.json`).then((res) => {
+          console.log(11111, this)
+          this.detailData = res.body[aid]
+        })
+      }else if ((aid < 14 && aid >= 10) || (aid < 1009 && aid >= 1004)){
+        if(aid<1000){
+          aid = aid-10
+        }else{
+          aid = aid-1000
+        }
+        this.$http.get(`/static/data/detail/food.json`).then((res) => {
+          this.detailData = res.body[aid]
         })
       } else {
         this.isShow = false
