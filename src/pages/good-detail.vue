@@ -132,11 +132,11 @@
           console.log(11111, this)
           this.detailData = res.body[aid]
         })
-      }else if ((aid < 14 && aid >= 10) || (aid < 1009 && aid >= 1004)){
-        if(aid<1000){
-          aid = aid-10
-        }else{
-          aid = aid-1000
+      } else if ((aid < 14 && aid >= 10) || (aid < 1009 && aid >= 1004)) {
+        if (aid < 1000) {
+          aid = aid - 10
+        } else {
+          aid = aid - 1000
         }
         this.$http.get(`/static/data/detail/food.json`).then((res) => {
           this.detailData = res.body[aid]
