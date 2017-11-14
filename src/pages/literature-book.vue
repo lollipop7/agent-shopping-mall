@@ -38,7 +38,8 @@
             :like="babyToy.like"
             :img="babyToy.img"
             :title="babyToy.title"
-            :ads="babyToy.ads">
+            :ads="babyToy.ads"
+            :id="babyToy.id">
           </common-commend>
         </ul>
         <div class="shoppingCar-page mt13 clearfix">

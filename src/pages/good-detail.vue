@@ -141,6 +141,11 @@
         this.$http.get(`/static/data/detail/food.json`).then((res) => {
           this.detailData = res.body[aid]
         })
+      } else if (aid < 116 && aid >= 100) {
+        aid = aid - 100
+        this.$http.get(`/static/data/detail/goods.json`).then((res) => {
+          this.detailData = res.body[aid]
+        })
       } else {
         this.isShow = false
       }
