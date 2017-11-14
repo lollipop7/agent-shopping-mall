@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="refund-report fyq-content">
+  <div class="refund-report faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>售后服务</BreadcrumbItem>
       <BreadcrumbItem>退款说明</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 退款方式</h3>
         <ul>

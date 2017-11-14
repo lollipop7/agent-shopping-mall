@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="payment fyq-content">
+  <div class="payment faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>付款方式</BreadcrumbItem>
       <BreadcrumbItem>支付方式</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 网上支付</h3>
         <ul>

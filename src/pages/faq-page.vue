@@ -1,17 +1,17 @@
 <template>
     <!--Created by lollipop 2017/11/13-->
-  <div class="mall-wrap fyq-wrapper">
+  <div class="mall-wrap faq-wrapper">
     <Breadcrumb separator=">">
       <BreadcrumbItem>9151福宝</BreadcrumbItem>
       <BreadcrumbItem>购物指南</BreadcrumbItem>
       <BreadcrumbItem>会员介绍</BreadcrumbItem>
     </Breadcrumb>
     <div class="wrapper-container clearfix">
-      <div class="pull-left fyq-navigation" style="width: 208px; border: 1px solid #eee">
-        <div class="fyq-category-header">
+      <div class="pull-left faq-navigation" style="width: 208px; border: 1px solid #eee">
+        <div class="faq-category-header">
           常见问题分类
         </div>
-        <div class="fyq-category-collapse" id="fyq-category-collapse">
+        <div class="faq-category-collapse" id="faq-category-collapse">
           <Menu style="width: 206px">
             <Submenu name="1">
               <template slot="title">
@@ -57,16 +57,16 @@
   </div>
 </template>
 <script>
-  import membersInfo from '../components/fyq-com/members-info'
-  import invoiceSystem from '../components/fyq-com/invoice-system'
-  import afterSalesService from '../components/fyq-com/after-sales-service'
-  import payment from '../components/fyq-com/payment'
-  import benusCard from '../components/fyq-com/benus-card'
-  import giftCard from '../components/fyq-com/gift-card'
-  import orderState from '../components/fyq-com/order-state'
-  import acceptReject from '../components/fyq-com/accept-reject'
-  import returnPolicy from '../components/fyq-com/return-policy'
-  import refundReport from '../components/fyq-com/refund-report'
+  import membersInfo from '../components/faq-com/members-info'
+  import invoiceSystem from '../components/faq-com/invoice-system'
+  import afterSalesService from '../components/faq-com/after-sales-service'
+  import payment from '../components/faq-com/payment'
+  import benusCard from '../components/faq-com/benus-card'
+  import giftCard from '../components/faq-com/gift-card'
+  import orderState from '../components/faq-com/order-state'
+  import acceptReject from '../components/faq-com/accept-reject'
+  import returnPolicy from '../components/faq-com/return-policy'
+  import refundReport from '../components/faq-com/refund-report'
   export default {
     data () {
       return {

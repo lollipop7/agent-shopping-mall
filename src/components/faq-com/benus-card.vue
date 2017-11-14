@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="benus-card fyq-content">
+  <div class="benus-card faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>售后服务</BreadcrumbItem>
       <BreadcrumbItem>9151福宝卡</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 9151福宝卡种类</h3>
         <ul>

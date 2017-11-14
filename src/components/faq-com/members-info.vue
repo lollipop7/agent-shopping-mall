@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="members-info fyq-content">
+  <div class="members-info faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>购物指南</BreadcrumbItem>
       <BreadcrumbItem>会员介绍</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1.成为企业用户需要哪些条件？（如何成为企业用户？)</h3>
         <ul>

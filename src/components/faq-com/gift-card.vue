@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="gift-card fyq-content">
+  <div class="gift-card faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>付款方式</BreadcrumbItem>
       <BreadcrumbItem>电子礼品卡说明及使用</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 电子礼品卡种类</h3>
         <ul>

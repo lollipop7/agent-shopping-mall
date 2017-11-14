@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="after-sales-service fyq-content">
+  <div class="after-sales-service faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>购物指南</BreadcrumbItem>
       <BreadcrumbItem>售后服务政策</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 7天无理由退货</h3>
         <ul>

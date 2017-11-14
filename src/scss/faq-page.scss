@@ -1,5 +1,5 @@
 //Created by lollipop 2017/11/13
-.fyq-wrapper {
+.faq-wrapper {
   margin-bottom: 40px;
   .ivu-breadcrumb {
     padding: 10px 0;
@@ -15,9 +15,9 @@
   }
   .wrapper-container {
     margin-top: 20px;
-    .fyq-navigation {
+    .faq-navigation {
       min-height: 626px;
-      .fyq-category-header {
+      .faq-category-header {
         height: 40px;
         line-height: 40px;
         padding-left: 56px;
@@ -25,7 +25,7 @@
         font-size: 1.6rem;
         color: #fff;
       }
-      .fyq-category-collapse {
+      .faq-category-collapse {
         .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
           color: #14b45e;
           border-right: 2px solid #14b45e;
@@ -39,7 +39,7 @@
         padding: 10px 24px;
       }
     }
-    .fyq-content {
+    .faq-content {
       min-height: 626px;
       .ivu-breadcrumb {
         padding-left: 20px;
@@ -50,7 +50,7 @@
           font-weight: 400;
         }
       }
-      .fyq-article {
+      .faq-article {
         padding-top: 20px;
         padding-left: 20px;
         .anchor {

@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="invoice-system fyq-content">
+  <div class="invoice-system faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>购物指南</BreadcrumbItem>
       <BreadcrumbItem>发票制度</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1.电子发票</h3>
         <ul>

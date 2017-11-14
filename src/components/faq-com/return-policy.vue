@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="return-policy fyq-content">
+  <div class="return-policy faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>售后服务</BreadcrumbItem>
       <BreadcrumbItem>退换货说明</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 退换货说明</h3>
         <ul>

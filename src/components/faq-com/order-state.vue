@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="order-state fyq-content">
+  <div class="order-state faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>订单服务</BreadcrumbItem>
       <BreadcrumbItem>订单状态说明</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 各种订单状态说明</h3>
         <ul>

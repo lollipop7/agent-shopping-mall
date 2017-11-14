@@ -1,11 +1,11 @@
 <template>
     <!--Created by lollipop 2017/11/14-->
-  <div class="accept-reject fyq-content">
+  <div class="accept-reject faq-content">
     <Breadcrumb separator=">">
       <BreadcrumbItem>订单服务</BreadcrumbItem>
       <BreadcrumbItem>验货与拒收政策说明</BreadcrumbItem>
     </Breadcrumb>
-    <div class="fyq-article">
+    <div class="faq-article">
       <div class="anchor">
         <h3>1. 快递送货上门的订单</h3>
         <ul>
